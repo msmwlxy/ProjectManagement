@@ -102,8 +102,7 @@ public class StudentAction extends ActionSupport implements ModelDriven<ProjectA
 		Student principal = new Student();
 		principal.setStudentNo(studentNo);
 		for(int id:this.pp.getProjectMemberIds()){
-			Student member = new Student();
-			member.setStudentNo(studentNo);
+			
 		}
 		return "message";
 	}

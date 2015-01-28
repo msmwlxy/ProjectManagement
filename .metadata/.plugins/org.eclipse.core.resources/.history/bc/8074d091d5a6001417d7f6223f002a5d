@@ -54,18 +54,6 @@ public class ProjectAndPage<T> {
 	
 	
 	
-	public Integer[] getProjectMemberIds() {
-		return projectMemberIds;
-	}
-
-
-
-	public void setProjectMemberIds(Integer[] projectMemberIds) {
-		this.projectMemberIds = projectMemberIds;
-	}
-
-
-
 	public Integer getProjectId() {
 		return projectId;
 	}

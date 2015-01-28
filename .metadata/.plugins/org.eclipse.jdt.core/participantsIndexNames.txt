@@ -3,3 +3,5 @@ F:\ProjectManagement\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\11966
 \ProjectManagent\src
 F:\ProjectManagement\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3763807492.index
 \ProjectManagement\src
+F:\大学生创新项目管理平台 - 副本\ProjectManagement\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3763807492.index
+\ProjectManagement\src
