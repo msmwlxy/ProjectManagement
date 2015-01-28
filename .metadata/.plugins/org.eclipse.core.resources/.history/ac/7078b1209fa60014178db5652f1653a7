@@ -1,0 +1,65 @@
+package org.future.projectManagement.bean;
+
+import org.future.projectManagement.utils.QueryResult;
+
+public class ProjectAndPage<T> {
+	/**
+	 * 
+	 */
+	
+	private long currentPage = 1;
+	private long startPageIndex = 1;
+	private long endPageIndex;
+	private long startResultIndex;
+	private long pageMaxResult = 5;
+	private QueryResult<T> qr;
+	
+	public ProjectAndPage(){}
+	public void setNumber(QueryResult<T> qr){
+		
+		if(qr.getTotalResult()%pageMaxResult==0){
+			this.endPageIndex = qr.getTotalResult()/pageMaxResult;
+		}else{
+			this.endPageIndex = (qr.getTotalResult()/pageMaxResult + 1);
+		}
+		this.qr = qr;
+	}
+	public long getCurrentPage() {
+		return currentPage;
+	}
+	public void setCurrentPage(long currentPage) {
+		this.currentPage = currentPage;
+	}
+	public long getStartPageIndex() {
+		return startPageIndex;
+	}
+	public void setStartPageIndex(long startPageIndex) {
+		this.startPageIndex = startPageIndex;
+	}
+	public long getEndPageIndex() {
+		return endPageIndex;
+	}
+	public void setEndPageIndex(long endPageIndex) {
+		this.endPageIndex = endPageIndex;
+	}
+	public long getStartResultIndex() {
+		return startResultIndex;
+	}
+	public void setStartResultIndex() {
+		this.startResultIndex = (this.currentPage-1)*this.pageMaxResult;
+	
+	}
+	public long getPageMaxResult() {
+		return pageMaxResult;
+	}
+	public void setPageMaxResult(long pageMaxResult) {
+		this.pageMaxResult = pageMaxResult;
+	}
+	public QueryResult<T> getQr() {
+		return qr;
+	}
+	public void setQr(QueryResult<T> qr) {
+		this.qr = qr;
+	}
+		
+}

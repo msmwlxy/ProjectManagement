@@ -1,0 +1,14 @@
+#Tue Jan 27 15:54:29 CST 2015
+tomcat6Server.ProjectManagement.noFileCopy=false
+tomcat6Server.ProjectManagement.type=WebDeployment
+tomcat6Server.ProjectManagement.deployIsOverProject=false
+tomcat6Server.ProjectManagement.contextRoot=/ProjectManagent
+tomcat6Server.ProjectManagement.isExploded=true
+tomcat6Server.ProjectManagement.altContextRoot=
+tomcat6Server.ProjectManagement.isUptoDate=true
+tomcat6Server.ProjectManagement.deploymentPath=F\:\\tomcat6\\apache-tomcat-6.0.43\\webapps\\ProjectManagent
+tomcat6Server.ProjectManagement.shouldBackup=false
+tomcat6Server.ProjectManagement.shouldOverwrite=false
+eclipse.preferences.version=1
+tomcat6Server.ProjectManagement.IEARProjectName=
+tomcat6Server.ProjectManagement.isDeployed=true

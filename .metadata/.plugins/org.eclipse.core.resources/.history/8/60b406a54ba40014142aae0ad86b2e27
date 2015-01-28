@@ -1,0 +1,36 @@
+package org.future.projectManagement.bean;
+/*
+ * 成果图片
+ * history
+ * 2015/1/25
+ * 
+ */
+public class AchImge {
+	
+	/*id**/
+	private Integer achImageId;
+	/*图片名**/
+	private String 	imageName;
+	/*项目资料**/
+	private ProjectData projectData;
+	
+	public Integer getAchImagesId() {
+		return achImagesId;
+	}
+	public void setAchImagesId(Integer achImagesId) {
+		this.achImagesId = achImagesId;
+	}
+	public String getImageName() {
+		return imageName;
+	}
+	public void setImageName(String imageName) {
+		this.imageName = imageName;
+	}
+	public ProjectData getProjectData() {
+		return projectData;
+	}
+	public void setProjectData(ProjectData projectData) {
+		this.projectData = projectData;
+	}
+	
+}

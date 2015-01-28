@@ -1,0 +1,9 @@
+package org.future.projectManagement.bean;
+/*
+ * history
+ * 2015/1/25创建文件
+ * 
+ */
+public class College {
+	private  
+}

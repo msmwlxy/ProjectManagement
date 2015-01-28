@@ -1,0 +1,112 @@
+package org.future.projectManagement.dao.imp;
+
+import java.util.LinkedHashMap;
+import java.util.List;
+
+import javax.annotation.Resource;
+
+import org.future.projectManagement.bean.Student;
+import org.future.projectManagement.dao.StudentDao;
+import org.future.projectManagement.utils.QueryResult;
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+
+public class StudentDaoImp implements StudentDao{
+	
+	private SessionFactory sessionFactory;
+	
+	@Override
+	public SessionFactory getSessionFactory() {
+		return sessionFactory;
+	}
+
+	@Override
+	@Resource
+	public void setSessionFactory(SessionFactory sessionFactory) {
+		this.sessionFactory = sessionFactory;
+	}
+
+	@Override
+	public void add(Student student) {
+		Session session = sessionFactory.getCurrentSession();
+		session.save(student);
+	}
+
+	@Override
+	public Student find(Class<Student> student, int id) {
+		Session session = sessionFactory.getCurrentSession();
+		return (Student)session.get(student, id);
+
+	}
+
+	@Override
+	public void Update(Student student) {
+		
+	}
+
+	@Override
+	public void delete(Student student) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void delete(List<Student> list) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public <T> QueryResult<T> getQueryResult(Class<Student> entityClass,
+			long startIndex, long endIndex, Object[] parameters, String where,
+			LinkedHashMap<String, String> orderBy) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public <T> QueryResult<T> getQueryResult(Class<Student> entityClass,
+			long startIndex, long endIndex, Object[] parameters, String where) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public <T> QueryResult<T> getQueryResult(Class<Student> entityClass,
+			long startIndex, long endIndex,
+			LinkedHashMap<String, String> orderBy) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public <T> QueryResult<T> getQueryResult(Class<Student> entityClass,
+			Object[] parameters, String where,
+			LinkedHashMap<String, String> orderBy) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public <T> QueryResult<T> getQueryResult(Class<Student> entityClass,
+			long startIndex, long endIndex) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public <T> QueryResult<T> getQueryResult(Class<Student> entityClass) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public <T> QueryResult<T> getQueryResult(Class<Student> entityClass,
+			Object[] parameters, String where) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	
+
+}

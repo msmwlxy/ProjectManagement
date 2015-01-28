@@ -1,0 +1,76 @@
+package org.future.projectManagement.bean;
+
+import java.util.HashSet;
+import java.util.Set;
+
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+
+/*
+ * 指导老师
+ * history
+ * 2015/1/25 创建文件
+ */
+@Entity
+public class Instructor {
+	/*工号**/
+	private String jobNumber;
+	/*姓名**/
+	private String name;
+	/*职务/职位**/
+	private Position position;
+	/*学院/单位**/
+	private College college;
+	/*电话**/
+	private String phone;
+	/*邮箱**/
+	private String email;
+	/*密码**/
+	private Set<Project> guideProject = new HashSet<Project>();
+	@Id
+	@GeneratedValue
+	public String getJobNumber() {
+		return jobNumber;
+	}
+	public void setJobNumber(String jobNumber) {
+		this.jobNumber = jobNumber;
+	}
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public Position getPosition() {
+		return position;
+	}
+	public void setPosition(Position position) {
+		this.position = position;
+	}
+	public College getCollege() {
+		return college;
+	}
+	public void setCollege(College college) {
+		this.college = college;
+	}
+	public String getPhone() {
+		return phone;
+	}
+	public void setPhone(String phone) {
+		this.phone = phone;
+	}
+	public String getEmail() {
+		return email;
+	}
+	public void setEmail(String email) {
+		this.email = email;
+	}
+	public Set<Project> getGuideProject() {
+		return guideProject;
+	}
+	public void setGuideProject(Set<Project> guideProject) {
+		this.guideProject = guideProject;
+	}
+	
+}

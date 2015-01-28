@@ -1,0 +1,41 @@
+package org.future.projectManagement.bean;
+
+import javax.persistence.Entity;
+
+/*
+ * 成果图片
+ * history
+ * 2015/1/25
+ * 
+ */
+@Entity
+public class AchImge {
+	
+	/*id**/
+	private Integer achImageId;
+	/*图片名**/
+	private String 	imageName;
+	/*项目资料**/
+	private ProjectData projectData;
+	
+	
+	public Integer getAchImageId() {
+		return achImageId;
+	}
+	public void setAchImageId(Integer achImageId) {
+		this.achImageId = achImageId;
+	}
+	public String getImageName() {
+		return imageName;
+	}
+	public void setImageName(String imageName) {
+		this.imageName = imageName;
+	}
+	public ProjectData getProjectData() {
+		return projectData;
+	}
+	public void setProjectData(ProjectData projectData) {
+		this.projectData = projectData;
+	}
+	
+}
