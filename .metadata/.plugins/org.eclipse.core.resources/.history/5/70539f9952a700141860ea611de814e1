@@ -1,0 +1,52 @@
+package org.future.projectManagement.service.imp;
+
+import java.util.LinkedHashMap;
+
+import org.future.projectManagement.bean.Student;
+import org.future.projectManagement.dao.StudentDao;
+import org.future.projectManagement.utils.QueryResult;
+
+public interface StudentService {
+
+	public abstract StudentDao getStudentDao();
+
+	public abstract void setStudentDao(StudentDao studentDao);
+
+	public abstract void add(Student student);
+
+	public abstract Student find(Class<Student> StudentClass, String id);
+
+	public abstract void Update(Student student);
+
+	public abstract QueryResult<Student> getQueryResult(
+			Class<Student> StudentClass, int startIndex, int MaxResults,
+			Object[] parameters, String where,
+			LinkedHashMap<String, String> orderBy);
+
+	//查找所有的记录
+	public abstract QueryResult<Student> getQueryResult(
+			Class<Student> StudentClass);
+
+	//根据开始索引，最大记录数和查询条件得到要查询的记录的集合
+	public abstract QueryResult<Student> getQueryResult(
+			Class<Student> StudentClass, int startIndex, int MaxResults,
+			Object[] parameters, String where);
+
+	//根据开始索引和要查询的最大记录数得到要查询的记录集合，并且对结果集进行排序
+	public abstract QueryResult<Student> getQueryResult(
+			Class<Student> StudentClass, int startIndex, int MaxResults,
+			LinkedHashMap<String, String> orderBy);
+
+	//根据查询条件得到要查询的结果集，并且对结果集中的记录进行排序
+	public abstract QueryResult<Student> getQueryResult(
+			Class<Student> StudentClass, Object[] parameters, String where,
+			LinkedHashMap<String, String> orderBy);
+
+	//根据开始索引和要查询的最大记录数得到要查询的结果
+	public abstract QueryResult<Student> getQueryResult(
+			Class<Student> StudentClass, int startIndex, int MaxResults);
+
+	public abstract QueryResult<Student> getQueryResult(
+			Class<Student> StudentClass, Object[] parameters, String where);
+
+}
