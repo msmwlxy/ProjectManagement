@@ -21,7 +21,7 @@ public class ProjectAndPage<T> {
 	/*总经费**/
 	private Float funds;
 	/*负责人id**/
-	private Integer principalId;
+	private String principalId;
 	/*学院id**/
 	private Integer collegeId;
 	/*项目状态id**/
@@ -31,8 +31,9 @@ public class ProjectAndPage<T> {
 	/*项目类型id**/
 	private Integer projectTypeId;
 	/*项目组成员id**/
-	private Integer[] projectMemberIds;
-	
+	private String[] projectMemberIds;
+	/*指导老师id**/
+	private String[] instructors;
 	
 	
 	
@@ -53,7 +54,7 @@ public class ProjectAndPage<T> {
 	public ProjectAndPage(){}
 	
 	
-	
+
 	public Integer getProjectId() {
 		return projectId;
 	}
@@ -62,6 +63,18 @@ public class ProjectAndPage<T> {
 
 	public void setProjectId(Integer projectId) {
 		this.projectId = projectId;
+	}
+
+
+
+	public String[] getInstructors() {
+		return instructors;
+	}
+
+
+
+	public void setInstructors(String[] instructors) {
+		this.instructors = instructors;
 	}
 
 
@@ -126,14 +139,26 @@ public class ProjectAndPage<T> {
 
 
 
-	public Integer getPrincipalId() {
+	public String getPrincipalId() {
 		return principalId;
 	}
 
 
 
-	public void setPrincipalId(Integer principalId) {
+	public void setPrincipalId(String principalId) {
 		this.principalId = principalId;
+	}
+
+
+
+	public String[] getProjectMemberIds() {
+		return projectMemberIds;
+	}
+
+
+
+	public void setProjectMemberIds(String[] projectMemberIds) {
+		this.projectMemberIds = projectMemberIds;
 	}
 
 

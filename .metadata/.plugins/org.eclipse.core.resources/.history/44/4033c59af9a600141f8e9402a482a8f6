@@ -1,0 +1,99 @@
+package org.future.projectManagement.service.imp;
+
+import java.util.LinkedHashMap;
+import java.util.List;
+
+import org.future.projectManagement.service.BaseService;
+import org.future.projectManagement.utils.QueryResult;
+
+public class BaseServiceImp implements BaseService{
+	
+	
+	@Override
+	public void add(Object object) {
+		
+		
+	}
+
+	@Override
+	public <T> T find(Class<T> object, int id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public <T> T find(Class<T> object, String id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void Update(Object object) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void delete(Object object) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public <T> void delete(List<T> list) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public <T> QueryResult<T> getQueryResult(Class<T> entityClass) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public <T> QueryResult<T> getQueryResult(Class<T> entityClass,
+			int startIndex, int MaxResults, Object[] parameters, String where,
+			LinkedHashMap<String, String> orderBy) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public <T> QueryResult<T> getQueryResult(Class<T> entityClass,
+			int startIndex, int MaxResults, Object[] parameters, String where) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public <T> QueryResult<T> getQueryResult(Class<T> entityClass,
+			int startIndex, int MaxResults,
+			LinkedHashMap<String, String> orderBy) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public <T> QueryResult<T> getQueryResult(Class<T> entityClass,
+			Object[] parameters, String where,
+			LinkedHashMap<String, String> orderBy) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public <T> QueryResult<T> getQueryResult(Class<T> entityClass,
+			int startIndex, int MaxResults) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public <T> QueryResult<T> getQueryResult(Class<T> entityClass,
+			Object[] parameters, String where) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+}

@@ -1,4 +1,4 @@
-#Tue Jan 27 09:46:36 CST 2015
+#Wed Jan 28 22:40:00 CST 2015
 content_assist_proposals_foreground=0,0,0
 spelling_locale_initialized=true
 org.eclipse.jdt.ui.text.templates_migrated=true
@@ -16,5 +16,5 @@ content_assist_proposals_background=255,255,255
 content_assist_number_of_computers=17
 useQuickDiffPrefPage=true
 org.eclipse.jdt.ui.text.custom_templates=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates/>
-content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="java.lang.Enum"><rhs name\="javax.persistence.TemporalType"/><rhs name\="javax.persistence.CascadeType"/></lhs></history>
+content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="java.lang.Enum"><rhs name\="javax.persistence.TemporalType"/><rhs name\="javax.persistence.CascadeType"/></lhs><lhs name\="org.future.projectManagement.bean.Project"><rhs name\="org.future.projectManagement.bean.Project"/></lhs></history>
 org.eclipse.jdt.ui.text.code_templates_migrated=true

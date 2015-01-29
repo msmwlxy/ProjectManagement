@@ -1,8 +1,19 @@
 package org.future.projectManagement.action;
 
+import java.util.HashSet;
+import java.util.Set;
+
+import javax.annotation.Resource;
+
+import org.future.projectManagement.bean.College;
+import org.future.projectManagement.bean.Instructor;
 import org.future.projectManagement.bean.Project;
 import org.future.projectManagement.bean.ProjectAndPage;
+import org.future.projectManagement.bean.ProjectStatu;
+import org.future.projectManagement.bean.ProjectType;
 import org.future.projectManagement.bean.Student;
+import org.future.projectManagement.service.ProjectService;
+import org.future.projectManagement.service.StudentService;
 import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
 
@@ -30,9 +41,29 @@ public class StudentAction extends ActionSupport implements ModelDriven<ProjectA
 	private Integer collegeId;
 	/*登陆密码**/
 	private String password;
-	
+	/*用于封装浏览器传过来的request参数，此外还为分页提供方便**/
 	private ProjectAndPage<Project> pp = new ProjectAndPage<Project>();
 	
+	private StudentService studentService;
+	private ProjectService projectService;
+	
+	
+	public StudentService getStudentService() {
+		return studentService;
+	}
+	@Resource
+	public void setStudentService(StudentService studentService) {
+		this.studentService = studentService;
+	}
+
+	public ProjectService getProjectService() {
+		return projectService;
+	}
+	@Resource
+	public void setProjectService(ProjectService projectService) {
+		this.projectService = projectService;
+	}
+
 	public String getStudentNo() {
 		return studentNo;
 	}
@@ -99,7 +130,50 @@ public class StudentAction extends ActionSupport implements ModelDriven<ProjectA
 
 	/*申报项目**/
 	public String reportProject(){
+		
 		Student principal = new Student();
+		principal.setStudentNo(this.pp.getPrincipalId());
+		
+		Set<Student> projectMembers = new HashSet<Student>();
+		
+		for(String sId:this.pp.getProjectMemberIds()){
+			Student member = new Student();
+			member.setStudentNo(sId);
+			
+			projectMembers.add(member);
+		}
+		
+		Set<Instructor> instructors = new HashSet<Instructor>();
+		
+		for(String iId:this.pp.getInstructors()){
+			Instructor instructor = new Instructor();
+			instructor.setJobNumber(iId);
+			
+			instructors.add(instructor);
+		}
+		
+		College college = new College();
+		college.setCollegeId(this.pp.getCollegeId());
+		
+		ProjectStatu projectStatu = new ProjectStatu();
+		projectStatu.setProjectStatuId(2);
+		
+		ProjectType projectType = new ProjectType();
+		projectType.setProjectTypeId(1);
+		
+		Project project = new Project(pp.getDescription(),
+									pp.getStartTime(), 
+									pp.getEndTime(), 
+									pp.getFunds(),
+									principal, 
+									projectMembers,
+									instructors,
+									college,
+									projectStatu,
+									pp.getDescription(),
+									projectType);
+		
+		projectService.add(project);
 		return "message";
 	}
 
