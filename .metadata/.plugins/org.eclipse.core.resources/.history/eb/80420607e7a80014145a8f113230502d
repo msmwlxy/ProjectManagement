@@ -1,0 +1,7 @@
+package org.future.projectManagement.service.impl;
+
+import org.future.projectManagement.action.ManyConditionsQueryAction;
+
+public class ManyConditionsQueryServiceImpl extends ManyConditionsQueryAction {
+
+}

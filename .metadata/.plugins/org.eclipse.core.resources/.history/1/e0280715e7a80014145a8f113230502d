@@ -1,0 +1,13 @@
+package org.future.projectManagement.service.impl;
+
+import org.future.projectManagement.action.ManyConditionsQueryAction;
+
+public class ManyConditionsQueryServiceImpl extends ManyConditionsQueryAction {
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+	
+
+}

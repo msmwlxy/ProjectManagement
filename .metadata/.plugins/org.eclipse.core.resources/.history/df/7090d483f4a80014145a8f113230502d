@@ -1,0 +1,24 @@
+package org.future.projectManagement.dao.imp;
+
+import java.util.Date;
+import java.util.List;
+
+import org.future.projectManagement.dao.ManyConditionsQueryDao;
+
+public class ManyConditionsQueryDaoImpl implements ManyConditionsQueryDao {
+
+	@Override
+	public int getCount(int cId, Date startTime, Date endTime, int pId,
+			int psId, Boolean outStanding) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public List<?> search(int cId, Date startTime, Date endTime, int pId,
+			int psId, Boolean outStanding, int maxRow, int currentPage) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

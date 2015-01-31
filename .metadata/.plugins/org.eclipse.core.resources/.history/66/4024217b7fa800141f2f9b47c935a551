@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+	"http://struts.apache.org/dtds/struts-2.3.dtd">
+
+<struts>
+	<!-- 配置为开发模式 -->
+    <constant name="struts.devMode" value="true" />
+    <!-- 把扩展名配置为action -->
+    <constant name="struts.action.extension" value="action" />
+    <!-- 把主题配置为simple -->
+    <constant name="struts.ui.theme" value="simple" />
+    
+    <package name="Student" namespace="/student" extends="struts-default">
+    	<!-- 申报项目 -->
+    	<action name="reportProjectUI" class="studentAction" method="reportProjectUI">
+    		<result name="reportProjectUI">
+    		/WEB-INF/page/project/reportProject.jsp
+    		</result>
+    	</action>
+    	
+    	<action name="reportProject" class="studentAction" method="reportProject">
+    		<result name="success">
+    			/WEB-INF/page/success.jsp
+    		</result>
+    	</action>
+    </package>
+   
+
+    <!-- Add packages here -->
+
+</struts>

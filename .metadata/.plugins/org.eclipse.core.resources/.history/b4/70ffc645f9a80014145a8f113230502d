@@ -1,0 +1,47 @@
+package org.future.projectManagement.service.impl;
+
+import java.util.Date;
+import java.util.List;
+
+import javax.annotation.Resource;
+
+import org.future.projectManagement.dao.ManyConditionsQueryDao;
+import org.future.projectManagement.service.ManyConditionsQueryService;
+import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
+//@Service : 标注一个业务逻辑组件类
+
+@Service
+@Transactional
+@SuppressWarnings("unchecked")
+public class ManyConditionsQueryServiceImpl implements
+		ManyConditionsQueryService {
+
+	private ManyConditionsQueryDao manyConditionsQueryDao;
+	
+	public ManyConditionsQueryDao getManyConditionsQueryDao() {
+		return manyConditionsQueryDao;
+	}
+	@Resource
+	public void setManyConditionsQueryDao(
+			ManyConditionsQueryDao manyConditionsQueryDao) {
+		this.manyConditionsQueryDao = manyConditionsQueryDao;
+	}
+
+	@Override
+	public int getCount(int cId, Date startTime, Date endTime, int pId,
+			int psId, Boolean outStanding) {
+		StringBuffer hql = new StringBuffer();
+		
+		return 0;
+	}
+
+	@Override
+	public List<?> search(int cId, Date startTime, Date endTime, int pId,
+			int psId, Boolean outStanding, int maxRow, int currentPage) {
+		
+		
+		return null;
+	}
+
+}

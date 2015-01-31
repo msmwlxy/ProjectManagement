@@ -1,0 +1,60 @@
+package org.future.projectManagement.service.impl;
+
+import java.util.ArrayList;
+import java.util.Date;
+import java.util.List;
+
+import javax.annotation.Resource;
+
+import org.future.projectManagement.dao.ManyConditionsQueryDao;
+import org.future.projectManagement.service.ManyConditionsQueryService;
+import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
+//@Service : 标注一个业务逻辑组件类
+
+@Service
+@Transactional
+@SuppressWarnings("unchecked")
+public class ManyConditionsQueryServiceImpl implements
+		ManyConditionsQueryService {
+
+	private ManyConditionsQueryDao manyConditionsQueryDao;
+	
+	public ManyConditionsQueryDao getManyConditionsQueryDao() {
+		return manyConditionsQueryDao;
+	}
+	@Resource
+	public void setManyConditionsQueryDao(
+			ManyConditionsQueryDao manyConditionsQueryDao) {
+		this.manyConditionsQueryDao = manyConditionsQueryDao;
+	}
+
+	@Override
+	public int getCount(int cId, Date startTime, Date endTime, int pId,
+			int psId, Boolean outStanding) {
+		StringBuffer hql = new StringBuffer("select count(project.project.id) from project");
+		
+		Object[] param = this.getParam();
+		
+		return setManyConditionsQueryDao.getCount(hql.toString(), param);
+	}
+
+	@Override
+	public List<?> search(int cId, Date startTime, Date endTime, int pId,
+			int psId, Boolean outStanding, int maxRow, int currentPage) {
+		
+		
+		return null;
+	}
+	
+	private Object[] getParam(StringBuffer hql, int cId, Date startTime, Date endTime, int pId,
+			int psId, Boolean outStanding) {
+		List<Object> l = new ArrayList<Object>();
+		String q = setManyConditionsQueryDao.getHQL(l, cId, startTime, endTime, pId, psId, outStanding);
+		if(!"".equals(q) && q != null) {
+			
+		}
+	}
+	
+
+}

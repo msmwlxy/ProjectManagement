@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="45" version="2.0">
+<workbench progressCount="68" version="2.0">
 <workbenchAdvisor/>
 <window height="738" maximized="true" width="1024" x="50" y="0">
 <fastViewData fastViewLocation="1024"/>
@@ -27,7 +27,9 @@
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="198" y="22"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
-<coolItem id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="com.genuitec.eclipse.struts2.editor" itemType="typeToolBarContribution" x="342" y="22"/>
+<coolItem id="com.genuitec.eclipse.hibernate.editors.HibernateConfigXMLEditor" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="com.genuitec.eclipse.springframework.springconfigeditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="group.help" itemType="typeGroupMarker"/>
@@ -46,107 +48,197 @@
 <part id="4"/>
 <part id="5"/>
 <part id="6"/>
-<part id="7"/>
-<part id="8"/>
-<part id="9"/>
-<part id="10"/>
-<part id="11"/>
-<part id="12"/>
-<part id="13"/>
-<part id="14"/>
-<part id="15"/>
-<part id="16"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="AchImage.java" partName="AchImage.java" path="F:/ProjectManagement/ProjectManagement/src/org/future/projectManagement/bean/AchImage.java" title="AchImage.java" tooltip="ProjectManagement/src/org/future/projectManagement/bean/AchImage.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ProjectManagement/src/org/future/projectManagement/bean/AchImage.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="986" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Admin.java" partName="Admin.java" path="F:/ProjectManagement/ProjectManagement/src/org/future/projectManagement/bean/Admin.java" title="Admin.java" tooltip="ProjectManagement/src/org/future/projectManagement/bean/Admin.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ProjectManagement/src/org/future/projectManagement/bean/Admin.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="16" selectionOffset="511" selectionTopPixel="126"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ColAudit.java" partName="ColAudit.java" path="F:/ProjectManagement/ProjectManagement/src/org/future/projectManagement/bean/ColAudit.java" title="ColAudit.java" tooltip="ProjectManagement/src/org/future/projectManagement/bean/ColAudit.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ProjectManagement/src/org/future/projectManagement/bean/ColAudit.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="727" selectionTopPixel="252"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Project.java" partName="Project.java" path="F:/ProjectManagement/ProjectManagement/src/org/future/projectManagement/bean/Project.java" title="Project.java" tooltip="ProjectManagement/src/org/future/projectManagement/bean/Project.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ProjectManagement/src/org/future/projectManagement/bean/Project.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2596" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ProjectData.java" partName="ProjectData.java" path="F:/ProjectManagement/ProjectManagement/src/org/future/projectManagement/bean/ProjectData.java" title="ProjectData.java" tooltip="ProjectManagement/src/org/future/projectManagement/bean/ProjectData.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ProjectManagement/src/org/future/projectManagement/bean/ProjectData.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1186" selectionTopPixel="0"/>
-</editor>
-<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="College.java" partName="College.java" path="F:/ProjectManagement/ProjectManagement/src/org/future/projectManagement/bean/College.java" title="College.java" tooltip="ProjectManagement/src/org/future/projectManagement/bean/College.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ProjectManagement/src/org/future/projectManagement/bean/College.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="331" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Instructor.java" partName="Instructor.java" path="F:/ProjectManagement/ProjectManagement/src/org/future/projectManagement/bean/Instructor.java" title="Instructor.java" tooltip="ProjectManagement/src/org/future/projectManagement/bean/Instructor.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ProjectManagement/src/org/future/projectManagement/bean/Instructor.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="857" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Position.java" partName="Position.java" path="F:/ProjectManagement/ProjectManagement/src/org/future/projectManagement/bean/Position.java" title="Position.java" tooltip="ProjectManagement/src/org/future/projectManagement/bean/Position.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ProjectManagement/src/org/future/projectManagement/bean/Position.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="619" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ProjectLog.java" partName="ProjectLog.java" path="F:/ProjectManagement/ProjectManagement/src/org/future/projectManagement/bean/ProjectLog.java" title="ProjectLog.java" tooltip="ProjectManagement/src/org/future/projectManagement/bean/ProjectLog.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ProjectManagement/src/org/future/projectManagement/bean/ProjectLog.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1786" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ProjectStatu.java" partName="ProjectStatu.java" path="F:/ProjectManagement/ProjectManagement/src/org/future/projectManagement/bean/ProjectStatu.java" title="ProjectStatu.java" tooltip="ProjectManagement/src/org/future/projectManagement/bean/ProjectStatu.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ProjectManagement/src/org/future/projectManagement/bean/ProjectStatu.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="1" selectionOffset="695" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SchoolBulletin.java" partName="SchoolBulletin.java" path="F:/ProjectManagement/ProjectManagement/src/org/future/projectManagement/bean/SchoolBulletin.java" title="SchoolBulletin.java" tooltip="ProjectManagement/src/org/future/projectManagement/bean/SchoolBulletin.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ProjectManagement/src/org/future/projectManagement/bean/SchoolBulletin.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1595" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Student.java" partName="Student.java" path="F:/ProjectManagement/ProjectManagement/src/org/future/projectManagement/bean/Student.java" title="Student.java" tooltip="ProjectManagement/src/org/future/projectManagement/bean/Student.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ProjectManagement/src/org/future/projectManagement/bean/Student.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="930" selectionTopPixel="294"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TAOAudit.java" partName="TAOAudit.java" path="F:/ProjectManagement/ProjectManagement/src/org/future/projectManagement/bean/TAOAudit.java" title="TAOAudit.java" tooltip="ProjectManagement/src/org/future/projectManagement/bean/TAOAudit.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ProjectManagement/src/org/future/projectManagement/bean/TAOAudit.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="697" selectionTopPixel="252"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Thesis.java" partName="Thesis.java" path="F:/ProjectManagement/ProjectManagement/src/org/future/projectManagement/bean/Thesis.java" title="Thesis.java" tooltip="ProjectManagement/src/org/future/projectManagement/bean/Thesis.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ProjectManagement/src/org/future/projectManagement/bean/Thesis.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="649" selectionTopPixel="42"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ProjectType.java" partName="ProjectType.java" path="F:/ProjectManagement/ProjectManagement/src/org/future/projectManagement/bean/ProjectType.java" title="ProjectType.java" tooltip="ProjectManagement/src/org/future/projectManagement/bean/ProjectType.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ProjectManagement/src/org/future/projectManagement/bean/ProjectType.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="674" selectionTopPixel="0"/>
-</editor>
 <editor id="com.genuitec.eclipse.springframework.springconfigeditor" name="applicationContext.xml" partName="applicationContext.xml" path="F:/ProjectManagement/ProjectManagement/config/applicationContext.xml" title="applicationContext.xml" tooltip="ProjectManagement/config/applicationContext.xml" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ProjectManagement/config/applicationContext.xml"/>
 </editor>
-<editor id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" name="web.xml" partName="web.xml" path="F:/ProjectManagement/ProjectManagement/WebRoot/WEB-INF/web.xml" title="web.xml" tooltip="ProjectManagement/WebRoot/WEB-INF/web.xml" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ProjectManagement/WebRoot/WEB-INF/web.xml"/>
+<editor id="com.genuitec.eclipse.struts2.editor" name="struts.xml" partName="struts.xml" path="F:/ProjectManagement/ProjectManagement/config/struts.xml" title="struts.xml" tooltip="ProjectManagement/config/struts.xml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ProjectManagement/config/struts.xml"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="RoleAction.java" partName="RoleAction.java" path="E:/MyEclipse/futureOA02-02/src/future/oa/view/action/RoleAction.java" title="RoleAction.java" tooltip="futureOA02-02/src/future/oa/view/action/RoleAction.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/futureOA02-02/src/future/oa/view/action/RoleAction.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1169" selectionTopPixel="648"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="StudentAction.java" partName="StudentAction.java" path="F:/ProjectManagement/ProjectManagement/src/org/future/projectManagement/action/StudentAction.java" title="StudentAction.java" tooltip="ProjectManagement/src/org/future/projectManagement/action/StudentAction.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ProjectManagement/src/org/future/projectManagement/action/StudentAction.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1750" selectionTopPixel="1326"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ProjectAndPage.java" partName="ProjectAndPage.java" path="F:/ProjectManagement/ProjectManagement/src/org/future/projectManagement/bean/ProjectAndPage.java" title="ProjectAndPage.java" tooltip="ProjectManagement/src/org/future/projectManagement/bean/ProjectAndPage.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ProjectManagement/src/org/future/projectManagement/bean/ProjectAndPage.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="192" selectionTopPixel="0"/>
+</editor>
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ManyConditionsQueryService.java" partName="ManyConditionsQueryService.java" path="F:/ProjectManagement/ProjectManagement/src/org/future/projectManagement/service/ManyConditionsQueryService.java" title="ManyConditionsQueryService.java" tooltip="ProjectManagement/src/org/future/projectManagement/service/ManyConditionsQueryService.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ProjectManagement/src/org/future/projectManagement/service/ManyConditionsQueryService.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="71" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ManyConditionsQueryAction.java" partName="ManyConditionsQueryAction.java" path="F:/ProjectManagement/ProjectManagement/src/org/future/projectManagement/action/ManyConditionsQueryAction.java" title="ManyConditionsQueryAction.java" tooltip="ProjectManagement/src/org/future/projectManagement/action/ManyConditionsQueryAction.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ProjectManagement/src/org/future/projectManagement/action/ManyConditionsQueryAction.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="408" selectionTopPixel="84"/>
 </editor>
 </editors>
 <views>
 <view id="com.genuitec.eclipse.ui.HTMLView" partName="Web Browser">
 <viewState/>
 </view>
-<view id="org.eclipse.wst.common.snippets.internal.ui.SnippetsView" partName="Snippets"/>
-<view id="com.genuitec.eclipse.ast.deploy.core.serverview" partName="Servers">
-<viewState/>
+<view id="org.eclipse.wst.common.snippets.internal.ui.SnippetsView" partName="Snippets">
+<viewState>
+<entry expansion="false" extent="20" maximum="100" minimum="0" pinned="false" value="0">&#x0A;<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+</entry>
+<entry expansion="true" extent="76" maximum="76" minimum="0" pinned="false" value="0">&#x0A;<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+</entry>
+<entry expansion="false" extent="0" maximum="268" minimum="0" pinned="false" value="0">&#x0A;<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+</entry>
+<entry expansion="false" extent="0" maximum="124" minimum="0" pinned="false" value="0">&#x0A;<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+</entry>
+<entry expansion="false" extent="0" maximum="196" minimum="0" pinned="false" value="0">&#x0A;<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+</entry>
+<entry expansion="false" extent="0" maximum="340" minimum="0" pinned="false" value="0">&#x0A;<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+</entry>
+<entry expansion="false" extent="0" maximum="244" minimum="0" pinned="false" value="0">&#x0A;<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+</entry>
+<entry expansion="false" extent="0" maximum="556" minimum="0" pinned="false" value="0">&#x0A;<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+</entry>
+<entry expansion="false" extent="0" maximum="100" minimum="0" pinned="false" value="0">&#x0A;<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+</entry>
+<entry expansion="false" extent="0" maximum="532" minimum="0" pinned="false" value="0">&#x0A;<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+</entry>
+<entry expansion="false" extent="0" maximum="292" minimum="0" pinned="false" value="0">&#x0A;<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+</entry>
+<entry expansion="false" extent="0" maximum="124" minimum="0" pinned="false" value="0">&#x0A;<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+</entry>
+</viewState>
 </view>
 <view id="uky.article.imageviewer.views.ImageView" partName="Image Preview">
 <viewState/>
 </view>
 <view id="org.eclipse.jdt.ui.TypeHierarchy" partName="Type Hierarchy"/>
+<view id="com.genuitec.eclipse.ast.deploy.core.serverview" partName="Servers">
+<viewState/>
+</view>
 <view id="org.eclipse.ui.views.PropertySheet" partName="Properties">
 <viewState/>
 </view>
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.locationField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
 <expanded>
-<category IMemento.internal.id="Warnings (6 items)"/>
 <category IMemento.internal.id="Errors"/>
+<category IMemento.internal.id="Warnings"/>
+<category IMemento.internal.id="Warnings (9 items)"/>
 </expanded>
 <columnWidths org.eclipse.ui.ide.locationField="90" org.eclipse.ui.ide.markerType="90" org.eclipse.ui.ide.pathField="120" org.eclipse.ui.ide.resourceField="90" org.eclipse.ui.ide.severityAndDescriptionField="300"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
@@ -155,9 +247,6 @@
 <visible IMemento.internal.id="org.eclipse.ui.ide.locationField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.markerType"/>
 </viewState>
-</view>
-<view id="org.eclipse.ui.console.ConsoleView" partName="Console">
-<viewState/>
 </view>
 <view id="org.eclipse.jdt.ui.PackageExplorer" partName="Package Explorer">
 <viewState group_libraries="1" layout="2" linkWithEditor="0" rootMode="1" workingSetName="">
@@ -188,6 +277,9 @@
 </xmlDefinedFilters>
 </customFilters>
 </viewState>
+</view>
+<view id="org.eclipse.ui.console.ConsoleView" partName="Console">
+<viewState/>
 </view>
 <view id="org.eclipse.ui.views.TaskList" partName="Tasks"/>
 <view id="org.eclipse.ui.views.ContentOutline" partName="Outline">
@@ -288,18 +380,23 @@
 <perspective_action id="com.genuitec.eclipse.web20.perspective"/>
 <hide_toolbar_item_id id="org.eclipse.jdt.ui.actions.OpenProjectWizard"/>
 <hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
-<view id="org.eclipse.jdt.ui.PackageExplorer"/>
-<view id="org.eclipse.jdt.ui.TypeHierarchy"/>
-<view id="uky.article.imageviewer.views.ImageView"/>
-<view id="org.eclipse.wst.common.snippets.internal.ui.SnippetsView"/>
-<view id="org.eclipse.ui.views.ContentOutline"/>
-<view id="org.eclipse.ui.views.PropertySheet"/>
 <view id="org.eclipse.ui.views.ProblemView"/>
 <view id="org.eclipse.ui.views.TaskList"/>
 <view id="com.genuitec.eclipse.ui.HTMLView"/>
-<view id="com.genuitec.eclipse.ast.deploy.core.serverview"/>
 <view id="org.eclipse.ui.console.ConsoleView"/>
-<fastViewBars/>
+<view id="com.genuitec.eclipse.ast.deploy.core.serverview"/>
+<view id="org.eclipse.jdt.ui.PackageExplorer"/>
+<view id="org.eclipse.jdt.ui.TypeHierarchy"/>
+<view id="org.eclipse.ui.views.ContentOutline"/>
+<view id="org.eclipse.ui.views.PropertySheet"/>
+<fastViewBars>
+<fastViewBar fastViewLocation="16384" id="bottomleft" orientation="256" selectedTabId="org.eclipse.wst.common.snippets.internal.ui.SnippetsView" style="0">
+<fastViews>
+<view id="uky.article.imageviewer.views.ImageView" ratio="0.3"/>
+<view id="org.eclipse.wst.common.snippets.internal.ui.SnippetsView" ratio="0.3"/>
+</fastViews>
+</fastViewBar>
+</fastViewBars>
 <layout>
 <mainWindow>
 <info folder="true" part="cvslocation">
@@ -314,7 +411,7 @@
 <page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
 </folder>
 </info>
-<info part="org.eclipse.ui.editorss" ratio="0.2811808" ratioLeft="381" ratioRight="974" relationship="2" relative="cvslocation"/>
+<info part="org.eclipse.ui.editorss" ratio="0.25150603" ratioLeft="334" ratioRight="994" relationship="2" relative="cvslocation"/>
 <info folder="true" part="org.eclipse.ui.internal.ViewStack@42d6f628" ratio="0.75" ratioLeft="600" ratioRight="200" relationship="2" relative="org.eclipse.ui.editorss">
 <folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
@@ -331,21 +428,21 @@
 </presentation>
 </folder>
 </info>
-<info folder="true" part="bottom" ratio="0.7615132" ratioLeft="463" ratioRight="145" relationship="4" relative="org.eclipse.ui.editorss">
+<info folder="true" part="bottom" ratio="0.76112026" ratioLeft="462" ratioRight="145" relationship="4" relative="org.eclipse.ui.editorss">
 <folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
 <page content="org.eclipse.ui.views.TaskList" label="Tasks"/>
 <page content="com.genuitec.eclipse.ui.HTMLView" label="Web Browser"/>
-<page content="com.genuitec.eclipse.ast.deploy.core.serverview" label="Servers"/>
 <page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
+<page content="com.genuitec.eclipse.ast.deploy.core.serverview" label="Servers"/>
 <page content="org.eclipse.search.ui.views.SearchView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
 <part id="1"/>
 <part id="2"/>
-<part id="4"/>
 <part id="3"/>
+<part id="4"/>
 </presentation>
 </folder>
 </info>
@@ -361,13 +458,10 @@
 </folder>
 </info>
 <info folder="true" part="bottomleft" ratio="0.65460527" ratioLeft="398" ratioRight="210" relationship="4" relative="topleft">
-<folder activePageID="uky.article.imageviewer.views.ImageView" appearance="2" expanded="2">
-<page content="uky.article.imageviewer.views.ImageView" label="Image Preview"/>
-<page content="org.eclipse.wst.common.snippets.internal.ui.SnippetsView" label="Snippets"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
-<part id="1"/>
-</presentation>
+<folder appearance="2" expanded="2">
+<page content="uky.article.imageviewer.views.ImageView" label="LabelNotFound"/>
+<page content="org.eclipse.wst.common.snippets.internal.ui.SnippetsView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
 </mainWindow>
@@ -377,174 +471,160 @@
 <workingSets/>
 <navigationHistory>
 <editors>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/ProjectManagement/src/org/future/projectManagement/action/StudentAction.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.struts2.editor" path="/futureOA02-02/config/struts.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.struts2.editor" path="/ProjectManagement/config/struts.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/futureOA02-02/src/future/oa/view/action/RoleAction.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/futureOA02-02/src/future/oa/view/action/DepartmentAction.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/futureOA02-02/src/future/oa/base/BaseAction.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/ProjectManagement/src/org/future/projectManagement/bean/ProjectAndPage.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/ProjectManagement/src/org/future/projectManagement/bean/Project.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/ProjectManagement/src/org/future/projectManagement/bean/ProjectType.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/ProjectManagement/src/org/future/projectManagement/bean/Admin.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/ProjectManagement/src/org/future/projectManagement/bean/Student.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.springframework.springconfigeditor" path="/ProjectManagement/config/applicationContext.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" path="/ProjectManagement/WebRoot/WEB-INF/web.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/ProjectManagement/src/org/future/projectManagement/bean/Project.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/ProjectManagement/src/org/future/projectManagement/bean/Student.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/ProjectManagement/src/org/future/projectManagement/bean/AchImage.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/ProjectManagement/src/org/future/projectManagement/bean/ColAudit.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/ProjectManagement/src/org/future/projectManagement/bean/College.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/ProjectManagement/src/org/future/projectManagement/bean/Instructor.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/ProjectManagement/src/org/future/projectManagement/bean/Position.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/ProjectManagement/src/org/future/projectManagement/bean/ProjectData.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/ProjectManagement/src/org/future/projectManagement/bean/ProjectLog.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/ProjectManagement/src/org/future/projectManagement/bean/ProjectStatu.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/ProjectManagement/src/org/future/projectManagement/bean/ProjectType.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/ProjectManagement/src/org/future/projectManagement/bean/SchoolBulletin.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/ProjectManagement/src/org/future/projectManagement/bean/TAOAudit.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/ProjectManagement/src/org/future/projectManagement/bean/Thesis.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/ProjectManagement/src/org/future/projectManagement/action/ManyConditionsQueryAction.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/ProjectManagement/src/org/future/projectManagement/service/ManyConditionsQueryService.java"/>
 </editors>
-<item historyLabel="Student.java" index="3">
-<position info="not_deleted" x="699" y="0"/>
+<item historyLabel="struts.xml" index="1"/>
+<item historyLabel="struts.xml" index="2"/>
+<item historyLabel="RoleAction.java" index="3">
+<position info="not_deleted" x="2727" y="0"/>
 </item>
-<item historyLabel="Student.java" index="3">
-<position info="not_deleted" x="643" y="3"/>
+<item historyLabel="struts.xml" index="2"/>
+<item historyLabel="RoleAction.java" index="3">
+<position info="not_deleted" x="1183" y="0"/>
 </item>
-<item historyLabel="Student.java" index="3">
-<position info="not_deleted" x="699" y="0"/>
+<item historyLabel="StudentAction.java" index="0">
+<position info="not_deleted" x="556" y="0"/>
 </item>
-<item historyLabel="Student.java" index="3">
-<position info="not_deleted" x="696" y="0"/>
+<item historyLabel="RoleAction.java" index="3">
+<position info="not_deleted" x="1227" y="0"/>
 </item>
-<item historyLabel="Student.java" index="3">
-<position info="not_deleted" x="1250" y="0"/>
+<item historyLabel="StudentAction.java" index="0">
+<position info="not_deleted" x="499" y="0"/>
 </item>
-<item historyLabel="Project.java" index="0">
-<position info="not_deleted" x="1082" y="0"/>
+<item historyLabel="RoleAction.java" index="3">
+<position info="not_deleted" x="1169" y="0"/>
 </item>
-<item historyLabel="ProjectType.java" index="1">
-<position info="not_deleted" x="567" y="0"/>
+<item historyLabel="StudentAction.java" index="0">
+<position info="not_deleted" x="544" y="0"/>
 </item>
-<item historyLabel="Student.java" index="3">
-<position info="not_deleted" x="1250" y="0"/>
+<item historyLabel="DepartmentAction.java" index="4">
+<position info="not_deleted" x="597" y="0"/>
 </item>
-<item historyLabel="Student.java" index="3">
-<position info="not_deleted" x="1248" y="0"/>
+<item historyLabel="BaseAction.java" index="5">
+<position info="not_deleted" x="747" y="0"/>
 </item>
-<item historyLabel="ProjectType.java" index="1">
-<position info="not_deleted" x="567" y="0"/>
+<item historyLabel="DepartmentAction.java" index="4">
+<position info="not_deleted" x="622" y="0"/>
 </item>
-<item historyLabel="Student.java" index="3">
-<position info="not_deleted" x="1248" y="0"/>
+<item historyLabel="StudentAction.java" index="0">
+<position info="not_deleted" x="556" y="0"/>
 </item>
-<item historyLabel="Project.java" index="0">
-<position info="not_deleted" x="1072" y="9"/>
+<item historyLabel="ProjectAndPage.java" index="6">
+<position info="not_deleted" x="192" y="0"/>
 </item>
-<item historyLabel="Student.java" index="3">
-<position info="not_deleted" x="1250" y="0"/>
+<item historyLabel="Project.java" index="7">
+<position info="not_deleted" x="1819" y="0"/>
 </item>
-<item historyLabel="Project.java" index="0">
-<position info="not_deleted" x="2602" y="0"/>
+<item historyLabel="ProjectAndPage.java" index="6">
+<position info="not_deleted" x="192" y="0"/>
 </item>
-<item historyLabel="Student.java" index="3">
-<position info="not_deleted" x="479" y="0"/>
+<item historyLabel="StudentAction.java" index="0">
+<position info="not_deleted" x="544" y="0"/>
 </item>
-<item historyLabel="Admin.java" index="2">
-<position info="not_deleted" x="657" y="0"/>
+<item historyLabel="RoleAction.java" index="3">
+<position info="not_deleted" x="1169" y="0"/>
 </item>
-<item historyLabel="applicationContext.xml" index="4">
-<position info="not_deleted" x="2835" y="0"/>
+<item historyLabel="StudentAction.java" index="0">
+<position info="not_deleted" x="556" y="0"/>
 </item>
-<item historyLabel="web.xml" index="5">
-<position info="not_deleted" x="0" y="0"/>
+<item historyLabel="ManyConditionsQueryAction.java" index="8">
+<position info="not_deleted" x="506" y="0"/>
 </item>
-<item historyLabel="applicationContext.xml" index="4"/>
-<item historyLabel="Project.java" index="6">
-<position info="not_deleted" x="2602" y="0"/>
+<item historyLabel="StudentAction.java" index="0">
+<position info="not_deleted" x="538" y="0"/>
 </item>
-<item historyLabel="Student.java" index="7">
-<position info="not_deleted" x="522" y="0"/>
+<item historyLabel="ManyConditionsQueryAction.java" index="8">
+<position info="not_deleted" x="605" y="0"/>
 </item>
-<item historyLabel="Student.java" index="7">
-<position info="not_deleted" x="475" y="0"/>
+<item historyLabel="StudentAction.java" index="0">
+<position info="not_deleted" x="544" y="0"/>
 </item>
-<item historyLabel="AchImage.java" index="8">
-<position info="not_deleted" x="986" y="0"/>
+<item historyLabel="ManyConditionsQueryAction.java" index="8">
+<position info="not_deleted" x="504" y="0"/>
 </item>
-<item historyLabel="Admin.java" index="2">
-<position info="not_deleted" x="582" y="0"/>
+<item historyLabel="StudentAction.java" index="0">
+<position info="not_deleted" x="617" y="0"/>
 </item>
-<item historyLabel="ColAudit.java" index="9">
-<position info="not_deleted" x="1259" y="0"/>
+<item historyLabel="ManyConditionsQueryAction.java" index="8">
+<position info="not_deleted" x="605" y="0"/>
 </item>
-<item historyLabel="College.java" index="10">
-<position info="not_deleted" x="525" y="0"/>
+<item historyLabel="StudentAction.java" index="0">
+<position info="not_deleted" x="538" y="0"/>
 </item>
-<item historyLabel="Instructor.java" index="11">
-<position info="not_deleted" x="1831" y="0"/>
+<item historyLabel="ManyConditionsQueryAction.java" index="8">
+<position info="not_deleted" x="401" y="0"/>
 </item>
-<item historyLabel="Position.java" index="12">
-<position info="not_deleted" x="619" y="0"/>
+<item historyLabel="ManyConditionsQueryAction.java" index="8">
+<position info="not_deleted" x="504" y="0"/>
 </item>
-<item historyLabel="Project.java" index="6">
-<position info="not_deleted" x="2627" y="0"/>
+<item historyLabel="ManyConditionsQueryAction.java" index="8">
+<position info="not_deleted" x="504" y="0"/>
 </item>
-<item historyLabel="ProjectData.java" index="13">
-<position info="not_deleted" x="1442" y="0"/>
+<item historyLabel="ManyConditionsQueryAction.java" index="8">
+<position info="not_deleted" x="503" y="0"/>
 </item>
-<item historyLabel="ProjectLog.java" index="14">
-<position info="not_deleted" x="1253" y="0"/>
+<item historyLabel="ManyConditionsQueryAction.java" index="8">
+<position info="not_deleted" x="907" y="0"/>
 </item>
-<item historyLabel="ProjectStatu.java" index="15">
-<position info="not_deleted" x="533" y="0"/>
+<item historyLabel="StudentAction.java" index="0">
+<position info="not_deleted" x="2078" y="0"/>
 </item>
-<item historyLabel="ProjectType.java" index="16">
-<position info="not_deleted" x="567" y="0"/>
+<item historyLabel="ManyConditionsQueryAction.java" index="8">
+<position info="not_deleted" x="904" y="0"/>
 </item>
-<item historyLabel="SchoolBulletin.java" index="17">
-<position info="not_deleted" x="1595" y="0"/>
+<item historyLabel="StudentAction.java" index="0">
+<position info="not_deleted" x="1803" y="0"/>
 </item>
-<item historyLabel="Student.java" index="7">
-<position info="not_deleted" x="607" y="0"/>
+<item historyLabel="ManyConditionsQueryAction.java" index="8">
+<position info="not_deleted" x="617" y="0"/>
 </item>
-<item historyLabel="TAOAudit.java" index="18">
-<position info="not_deleted" x="1329" y="0"/>
+<item historyLabel="ManyConditionsQueryAction.java" index="8">
+<position info="not_deleted" x="817" y="0"/>
 </item>
-<item historyLabel="Thesis.java" index="19">
-<position info="not_deleted" x="649" y="0"/>
+<item historyLabel="StudentAction.java" index="0">
+<position info="not_deleted" x="1957" y="0"/>
 </item>
-<item historyLabel="ProjectType.java" index="16">
-<position info="not_deleted" x="674" y="0"/>
+<item historyLabel="ManyConditionsQueryAction.java" index="8">
+<position info="not_deleted" x="701" y="0"/>
 </item>
-<item historyLabel="Thesis.java" index="19">
-<position info="not_deleted" x="649" y="0"/>
+<item historyLabel="ManyConditionsQueryService.java" index="9">
+<position info="not_deleted" x="214" y="0"/>
 </item>
-<item historyLabel="TAOAudit.java" index="18">
-<position info="not_deleted" x="1387" y="0"/>
+<item historyLabel="StudentAction.java" index="0">
+<position info="not_deleted" x="1750" y="0"/>
 </item>
-<item historyLabel="Student.java" index="7">
-<position info="not_deleted" x="534" y="0"/>
+<item historyLabel="ManyConditionsQueryService.java" index="9">
+<position info="not_deleted" x="214" y="0"/>
 </item>
-<item historyLabel="Admin.java" index="2">
-<position info="not_deleted" x="511" y="16"/>
+<item historyLabel="ManyConditionsQueryAction.java" index="8">
+<position info="not_deleted" x="603" y="0"/>
 </item>
-<item historyLabel="ColAudit.java" index="9">
-<position info="not_deleted" x="406" y="0"/>
+<item historyLabel="ManyConditionsQueryService.java" index="9">
+<position info="not_deleted" x="73" y="0"/>
 </item>
-<item historyLabel="ColAudit.java" index="9">
-<position info="not_deleted" x="727" y="0"/>
+<item historyLabel="ManyConditionsQueryAction.java" index="8">
+<position info="not_deleted" x="408" y="0"/>
 </item>
-<item historyLabel="Instructor.java" index="11">
-<position info="not_deleted" x="857" y="0"/>
+<item historyLabel="ManyConditionsQueryService.java" index="9">
+<position info="not_deleted" x="73" y="0"/>
 </item>
-<item historyLabel="TAOAudit.java" index="18">
-<position info="not_deleted" x="697" y="0"/>
+<item historyLabel="ManyConditionsQueryService.java" index="9">
+<position info="not_deleted" x="169" y="0"/>
 </item>
-<item historyLabel="Student.java" index="7">
-<position info="not_deleted" x="930" y="0"/>
+<item historyLabel="ManyConditionsQueryService.java" index="9">
+<position info="not_deleted" x="191" y="4"/>
 </item>
-<item historyLabel="College.java" index="10">
-<position info="not_deleted" x="404" y="0"/>
-</item>
-<item historyLabel="Instructor.java" index="11">
-<position info="not_deleted" x="857" y="0"/>
-</item>
-<item active="true" historyLabel="College.java" index="10">
-<position info="not_deleted" x="404" y="0"/>
+<item active="true" historyLabel="ManyConditionsQueryService.java" index="9">
+<position info="not_deleted" x="169" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -552,6 +632,14 @@
 <workbenchWindowAdvisor/>
 <actionBarAdvisor/>
 <trimLayout>
+<trimArea IMemento.internal.id="16384">
+<trimItem IMemento.internal.id="bottomleft"/>
+<trimItem IMemento.internal.id="topleft"/>
+</trimArea>
+<trimArea IMemento.internal.id="131072">
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.ViewStack@42d6f628"/>
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.ViewStack@2ebade60"/>
+</trimArea>
 <trimArea IMemento.internal.id="128">
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
 </trimArea>
@@ -559,54 +647,55 @@
 <trimItem IMemento.internal.id="org.eclise.ui.internal.FastViewBar"/>
 <trimItem IMemento.internal.id="org.eclipse.jface.action.StatusLineManager"/>
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.progress.ProgressRegion"/>
+<trimItem IMemento.internal.id="bottom"/>
 </trimArea>
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ManyConditionsQueryService.java" tooltip="ProjectManagement/src/org/future/projectManagement/service/ManyConditionsQueryService.java">
+<persistable path="/ProjectManagement/src/org/future/projectManagement/service/ManyConditionsQueryService.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ManyConditionsQueryAction.java" tooltip="ProjectManagement/src/org/future/projectManagement/action/ManyConditionsQueryAction.java">
+<persistable path="/ProjectManagement/src/org/future/projectManagement/action/ManyConditionsQueryAction.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Project.java" tooltip="ProjectManagement/src/org/future/projectManagement/bean/Project.java">
+<persistable path="/ProjectManagement/src/org/future/projectManagement/bean/Project.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ProjectAndPage.java" tooltip="ProjectManagement/src/org/future/projectManagement/bean/ProjectAndPage.java">
+<persistable path="/ProjectManagement/src/org/future/projectManagement/bean/ProjectAndPage.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="BaseAction.java" tooltip="futureOA02-02/src/future/oa/base/BaseAction.java">
+<persistable path="/futureOA02-02/src/future/oa/base/BaseAction.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="DepartmentAction.java" tooltip="futureOA02-02/src/future/oa/view/action/DepartmentAction.java">
+<persistable path="/futureOA02-02/src/future/oa/view/action/DepartmentAction.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="StudentAction.java" tooltip="ProjectManagement/src/org/future/projectManagement/action/StudentAction.java">
+<persistable path="/ProjectManagement/src/org/future/projectManagement/action/StudentAction.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="RoleAction.java" tooltip="futureOA02-02/src/future/oa/view/action/RoleAction.java">
+<persistable path="/futureOA02-02/src/future/oa/view/action/RoleAction.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.struts2.editor" name="struts.xml" tooltip="futureOA02-02/config/struts.xml">
+<persistable path="/futureOA02-02/config/struts.xml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.struts2.editor" name="struts.xml" tooltip="ProjectManagement/config/struts.xml">
+<persistable path="/ProjectManagement/config/struts.xml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="StudentDao.java" tooltip="ProjectManagement/src/org/future/projectManagement/dao/StudentDao.java">
+<persistable path="/ProjectManagement/src/org/future/projectManagement/dao/StudentDao.java"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" name="web.xml" tooltip="ProjectManagement/WebRoot/WEB-INF/web.xml">
 <persistable path="/ProjectManagement/WebRoot/WEB-INF/web.xml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.hibernate.editors.HibernateConfigXMLEditor" name="hibernate.cfg.xml" tooltip="futureOA02-02/config/hibernate.cfg.xml">
+<persistable path="/futureOA02-02/config/hibernate.cfg.xml"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.springframework.springconfigeditor" name="applicationContext.xml" tooltip="ProjectManagement/config/applicationContext.xml">
 <persistable path="/ProjectManagement/config/applicationContext.xml"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ProjectType.java" tooltip="ProjectManagement/src/org/future/projectManagement/bean/ProjectType.java">
 <persistable path="/ProjectManagement/src/org/future/projectManagement/bean/ProjectType.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Thesis.java" tooltip="ProjectManagement/src/org/future/projectManagement/bean/Thesis.java">
-<persistable path="/ProjectManagement/src/org/future/projectManagement/bean/Thesis.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TAOAudit.java" tooltip="ProjectManagement/src/org/future/projectManagement/bean/TAOAudit.java">
-<persistable path="/ProjectManagement/src/org/future/projectManagement/bean/TAOAudit.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Student.java" tooltip="ProjectManagement/src/org/future/projectManagement/bean/Student.java">
-<persistable path="/ProjectManagement/src/org/future/projectManagement/bean/Student.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SchoolBulletin.java" tooltip="ProjectManagement/src/org/future/projectManagement/bean/SchoolBulletin.java">
-<persistable path="/ProjectManagement/src/org/future/projectManagement/bean/SchoolBulletin.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ProjectStatu.java" tooltip="ProjectManagement/src/org/future/projectManagement/bean/ProjectStatu.java">
-<persistable path="/ProjectManagement/src/org/future/projectManagement/bean/ProjectStatu.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ProjectLog.java" tooltip="ProjectManagement/src/org/future/projectManagement/bean/ProjectLog.java">
-<persistable path="/ProjectManagement/src/org/future/projectManagement/bean/ProjectLog.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Position.java" tooltip="ProjectManagement/src/org/future/projectManagement/bean/Position.java">
-<persistable path="/ProjectManagement/src/org/future/projectManagement/bean/Position.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Instructor.java" tooltip="ProjectManagement/src/org/future/projectManagement/bean/Instructor.java">
-<persistable path="/ProjectManagement/src/org/future/projectManagement/bean/Instructor.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="College.java" tooltip="ProjectManagement/src/org/future/projectManagement/bean/College.java">
-<persistable path="/ProjectManagement/src/org/future/projectManagement/bean/College.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ProjectData.java" tooltip="ProjectManagement/src/org/future/projectManagement/bean/ProjectData.java">
-<persistable path="/ProjectManagement/src/org/future/projectManagement/bean/ProjectData.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Project.java" tooltip="ProjectManagement/src/org/future/projectManagement/bean/Project.java">
-<persistable path="/ProjectManagement/src/org/future/projectManagement/bean/Project.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ColAudit.java" tooltip="ProjectManagement/src/org/future/projectManagement/bean/ColAudit.java">
-<persistable path="/ProjectManagement/src/org/future/projectManagement/bean/ColAudit.java"/>
 </file>
 </mruList>
 </workbench>

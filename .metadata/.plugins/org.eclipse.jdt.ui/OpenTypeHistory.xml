@@ -1,4 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <typeInfoHistroy>
-<typeInfo handle="=ProjectManagement/src&lt;org.future.projectManagement.dao.imp{StudentDaoImp.java[StudentDaoImp" modifiers="1" timestamp="1422262581049"/>
+<typeInfo handle="=ProjectManagement/src&lt;org.future.projectManagement.dao.imp{StudentDaoImp.java[StudentDaoImp" modifiers="1" timestamp="1422502698510"/>
+<typeInfo handle="=ProjectManagement/F:\/ProjectManagement\/ProjectManagement\/WebRoot\/WEB-INF\/lib\/xwork-core-2.3.16.3.jar&lt;com.opensymphony.xwork2(ModelDriven.class[ModelDriven" modifiers="1537" timestamp="1422502650393"/>
+<typeInfo handle="=ProjectManagement/F:\/ProjectManagement\/ProjectManagement\/WebRoot\/WEB-INF\/lib\/spring-context-4.0.6.RELEASE.jar&lt;org.springframework.ui(Model.class[Model" modifiers="1537" timestamp="1422502649405"/>
+<typeInfo handle="=ProjectManagement/F:\/ProjectManagement\/ProjectManagement\/WebRoot\/WEB-INF\/lib\/xwork-core-2.3.16.3.jar&lt;com.opensymphony.xwork2.spring.interceptor(ActionAutowiringInterceptor.class[ActionAutowiringInterceptor" modifiers="33" timestamp="1422502650393"/>
+<typeInfo handle="=ProjectManagement/F:\/ProjectManagement\/ProjectManagement\/WebRoot\/WEB-INF\/lib\/xwork-core-2.3.16.3.jar&lt;com.opensymphony.xwork2(ActionSupport.class[ActionSupport" modifiers="33" timestamp="1422502650393"/>
 </typeInfoHistroy>

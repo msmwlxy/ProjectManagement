@@ -1,0 +1,18 @@
+package org.future.projectManagement.service;
+
+import java.util.Date;
+import java.util.List;
+
+public interface ManyConditionsQueryService {
+	
+	/**
+	 * 返回记录个数  
+	 * @param startTime
+	 * @param endTime
+	 * @return
+	 */
+	public int getCount(int cId, Date startTime, Date endTime, int pId, int psId, );  
+	  
+	// 返回记录  
+	public List<?> search(); 
+}

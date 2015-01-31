@@ -1,0 +1,27 @@
+package org.future.projectManagement.service.impl;
+
+import java.util.Date;
+import java.util.List;
+
+import org.future.projectManagement.service.ManyConditionsQueryService;
+
+public class ManyConditionsQueryServiceImpl implements
+		ManyConditionsQueryService {
+
+	@Override
+	public int getCount(int cId, Date startTime, Date endTime, int pId,
+			int psId, Boolean outStanding) {
+		
+		
+		return 0;
+	}
+
+	@Override
+	public List<?> search(int cId, Date startTime, Date endTime, int pId,
+			int psId, Boolean outStanding, int maxRow, int currentPage) {
+		
+		
+		return null;
+	}
+
+}
