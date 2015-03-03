@@ -1,0 +1,61 @@
+@charset "utf-8";
+/* CSS Document */
+.right{
+	padding:10px 80px;
+	float:left;
+	height:440px;
+	
+/*	line-height:38px;*/
+	}
+.text_font{
+	color:#1E5DBA;
+	font-weight:bolder;
+	font-size:14px; 
+	margin-left:300px;
+}
+tr{
+	line-height:30px;
+}
+td{
+	width: auto;
+}
+.right tr{
+	margin-top:-30px;
+}*/
+.xiantiao{
+	height：4px;
+	width:840px;
+	margin-top:-245px;
+	border:1px #0000FF solid;
+	}
+	.border{
+		border-left-width:thin;
+		border-left:2px solid #30F;
+	}
+.xuxian{
+	color:#1E5DBA;
+	height:2px;
+	width:840px;
+	border-bottom:dashed #999999 1px;
+	font-size:13px;
+	font-weight:bolder;
+	}
+.xiaoxuxian{
+	margin-top:-180px;
+	line-height:30px;
+	}
+a:link,a:visited{
+	text-decoration:none;
+	}
+a:hover{
+	text-decoration:none;
+	}
+table{
+	margin-top: 20px;
+	text-align:center;
+	border-color:black;
+	
+}
+#title{
+	font-weight: bold;
+}

@@ -1,0 +1,8 @@
+package org.future.projectManagement.dao.imp;
+import org.future.projectManagement.dao.seeAndDownloadDao;
+import org.springframework.stereotype.Component;
+@Component
+public class seeAndDownloadDaoImp extends BaseDaoImp implements seeAndDownloadDao {
+
+
+}

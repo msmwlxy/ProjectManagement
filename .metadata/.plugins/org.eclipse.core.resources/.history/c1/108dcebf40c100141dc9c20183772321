@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+	"http://struts.apache.org/dtds/struts-2.3.dtd">
+
+<struts>
+
+    <constant name="struts.enable.DynamicMethodInvocation" value="true" />
+    <constant name="struts.devMode" value="true" />
+    <!--允许上传文件的最大容量  -->
+	<constant name="struts.multipart.maxSize" value="1000000000"></constant>
+	<constant name="struts.action.excludePattern" value="/richTextarea/.*" />
+	<!--学生  -->
+    <package name="Student" namespace="/student" extends="struts-default">
+    
+    	
+    	
+    	<!-- 查看申报项目的详细信息 -->
+    	<action name="projectDetailedInfUI" class="studentAction" method="projectDetailedInfUI">
+			<result name="projectDetailedInfUI">
+				/WEB-INF/jsp/student/project/2level/projectDetailedInfUI.jsp
+			</result>
+    	</action>
+    	
+    	<!-- 进入申报项目界面 -->
+    	<action name="reportProjectUI" class="studentAction" method="reportProjectUI">
+    		<result name="reportProjectUI">
+    		/WEB-INF/jsp/student/project/reportProjectUI.jsp
+    		</result>
+    	</action>
+
+    	<!-- 申报项目 -->
+    	<action name="reportProject" class="studentAction" method="reportProject">
+    		<result name="message">
+    			/WEB-INF/jsp/student/message/return.jsp
+    		</result>
+    	</action>
+    	<!-- 下载项目申报书 -->
+    	<action name="downloadReportBook" class="studentAction" method="downloadReportBook">
+    		<result type="stream">
+    			<!--下载的文件类型  -->
+    			<param name="contentType">application/msword</param>
+    			<!-- 被下载文件的入口 -->
+    			<param name="inputName">targetFile</param>
+    			<!--指定下载的文件名  -->
+    			<param name="contentDisposition">attachment;filename="${fileName}"</param>
+    			<!--指定下载文件时的缓冲大小  -->
+    			<param name="bufferSize">4096</param>
+    		</result>
+    	</action>
+    	<!--进入更新项目页面  -->
+    	<action name="updateProjectUI" class="studentAction" method="updateProjectUI">
+			  <result name="updateProjectUI">
+			  		/WEB-INF/jsp/student/project/2level/updateProjectUI.jsp
+			  </result>
+    	</action>
+    	
+    	<!-- 修改项目申报 -->
+    	<action name="updateProject" class="studentAction" method="updateProject">
+    		<result name="message">
+    			  	/WEB-INF/jsp/student/message/return.jsp
+    		</result>
+    	</action>
+    	
+    	<!-- 进入所有项目的上传中期检查报告页面-->
+    	<action name="uploadMidFUI" class="studentAction" method="uploadMidFUI">
+    		<result name="uploadMidFUI">
+    				/WEB-INF/jsp/student/project/uploadMidFUI.jsp
+    		</result>
+    	</action>
+    	<!-- 进入上传中期检查报告页面-->
+    	<action name="uploadMidUI" class="studentAction" method="uploadMidUI">
+    		<result name="uploadMidUI">
+    				/WEB-INF/jsp/student/project/2level/uploadMidUI.jsp
+    		</result>
+    	</action>
+    	<!-- 进入上传中期检查-->
+    	<action name="uploadMid" class="studentAction" method="uploadMid">
+    		<result name="message">
+    				  	/WEB-INF/jsp/student/message/return.jsp
+    		</result>
+    	</action>
+    	
+    	
+    	
+    	<!-- 进入所有项目的上传结项报告页面-->
+    	<action name="uploadOverFUI" class="studentAction" method="uploadOverFUI">
+    		<result name="uploadOverFUI">
+    				/WEB-INF/jsp/student/project/uploadOverFUI.jsp
+    				
+    		</result>
+    	</action>
+    	<!-- 进入上传结项报告页面-->
+    	<action name="uploadOverUI" class="studentAction" method="uploadOverUI">
+    		<result name="uploadOverUI">
+    				/WEB-INF/jsp/student/project/2level/uploadOverUI.jsp
+    		</result>
+    	</action> 
+    	<!-- 上传结项报告 -->
+    	<action name="uploadOver" class="studentAction" method="uploadOver">
+    		<result name="message">
+    				/WEB-INF/jsp/student/message/return.jsp
+    		</result>
+    	</action>
+    	
+    	
+    	
+    	
+    	
+    	<!-- 进入所有项目的上传论文页面-->
+    	<action name="uploadThesisFUI" class="studentAction" method="uploadThesisFUI">
+    		<result name="uploadThesisFUI">
+    				/WEB-INF/jsp/student/project/uploadThesisFUI.jsp
+    		</result>
+    	</action>
+    	<!-- 进入上传论文页面-->
+    	<action name="uploadThesisUI" class="studentAction" method="uploadThesisUI">
+    		<result name="uploadThesisUI">
+    				/WEB-INF/jsp/student/project/2level/uploadThesisUI.jsp
+    		</result>
+    	</action> 
+    	<!-- 上传论文 -->
+    	<action name="uploadThesis" class="studentAction" method="uploadThesis">
+    		<result name="message">
+    			/WEB-INF/jsp/student/message/return.jsp
+    		</result>
+    	</action>
+    	<!-- 上传成果图片的上一级页面 -->
+    	<action name="uploadAchImageFUI" class="studentAction" method="uploadAchImageFUI">
+    		<result name="uploadAchImageFUI">
+    			/WEB-INF/jsp/student/project/uploadAchImageFUI.jsp
+    		</result>
+    	</action>
+    	<!-- 上传成果页面 -->
+    	<action name="uploadAchImageUI" class="studentAction" method="uploadAchImageUI">
+    		<result name="uploadAchImageUI">
+    			/WEB-INF/jsp/student/project/2level/uploadAchImageUI.jsp
+    		</result>
+    	</action>
+    	<!-- 上传成果图片 -->
+    	<action name="uploadAchImage" class="studentAction" method="uploadAchImage">
+    		<result name="message">
+    			/WEB-INF/jsp/student/message/return.jsp
+    		</result>
+    	</action>
+    	
+    
+    	<!-- 查看已申报的项目 -->
+    	<action name="lookReportProjectUI" class="studentAction" method="lookReportProjectUI">
+    		<result name="lookReportProjectUI">
+    				/WEB-INF/jsp/student/project/lookReportProjectUI.jsp
+    		</result>
+    	</action>
+    	<!--查看项目日志  -->
+    	<action name="lookProjectLogUI" class="studentAction" method="lookProjectLogUI">
+    		<result name="lookProjectLogUI">
+    			/WEB-INF/jsp/student/project/2level/lookProjectLogUI.jsp
+    		</result>
+    	</action>
+    		<!--进入消息提示页面 -->
+    	<action name="prompt" class="studentAction" method="prompt">
+    		<result name="prompt">
+    			/WEB-INF/jsp/student/message/prompt.jsp
+    		</result>
+    	</action>
+    	
+    	<!-- 用于框架页面的生成 -->
+    	 <action name="*" class="centerAction" >
+    		<result>
+    			/WEB-INF/jsp/student/main/{1}.jsp
+    		</result>
+    	</action>
+    
+    </package> 
+    <!-- 查看和下载文档,查看成果 -->
+    <package name="seeAndDownload" namespace="/seeAndDownload" extends="struts-default">
+    	<action name="seeDocUI" class="seeAndDownloadAction" method="seeDocUI">
+    		<result name="seeDocUI">
+    		/WEB-INF/jsp/seeAndDownload/see/midCheck/seeDocUI.jsp
+    		</result>
+    	</action>
+    	
+    </package>
+  
+</struts>

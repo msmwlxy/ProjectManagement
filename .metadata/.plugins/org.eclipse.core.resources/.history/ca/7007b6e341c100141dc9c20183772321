@@ -1,0 +1,5 @@
+package org.future.projectManagement.dao;
+
+public interface seeAndDownloadDao {
+	public Project getProjectById(int projectId);
+}

@@ -1,6 +1,7 @@
 package org.future.projectManagement.bean;
 
 import java.io.Serializable;
+import java.util.Date;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -8,6 +9,8 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
+import javax.persistence.Temporal;
+import javax.persistence.TemporalType;
 
 /*
  * 校内公告
@@ -32,6 +35,8 @@ public class SchoolBulletin implements Serializable{
 	private	String appendixName;
 	/*发表人**/
 	private TAOAudit taoAudit;
+	/*发表时间**/
+	private Date publishTime;
 	@Id
 	@GeneratedValue
 	public Integer getSchoolBulletinId() {
@@ -76,5 +81,15 @@ public class SchoolBulletin implements Serializable{
 	public void setTaoAudit(TAOAudit taoAudit) {
 		this.taoAudit = taoAudit;
 	}
+	@Temporal(TemporalType.DATE)
+	@Column(nullable=false)
+	public Date getPublishTime() {
+		return publishTime;
+	}
+	public void setPublishTime(Date publishTime) {
+		this.publishTime = publishTime;
+	}
+	
+	
 	
 }

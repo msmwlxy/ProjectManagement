@@ -1,39 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="42" version="2.0">
+<workbench progressCount="66" version="2.0">
 <workbenchAdvisor/>
-<window height="738" maximized="true" width="1024" x="50" y="0">
+<window height="738" maximized="true" width="1024" x="46" y="384">
 <fastViewData fastViewLocation="1024"/>
 <perspectiveBar>
 <itemSize x="160"/>
 </perspectiveBar>
 <coolbarLayout>
 <coolItem id="group.file" itemType="typeGroupMarker"/>
-<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="159" y="22"/>
+<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="266" y="22"/>
 <coolItem id="additions" itemType="typeGroupMarker"/>
 <coolItem id="com.genuitec.eclipse.j2eedt.core.ejb" itemType="typeToolBarContribution" x="55" y="22"/>
+<coolItem id="com.genuitec.eclipse.struts2.editor" itemType="typeToolBarContribution" x="342" y="22"/>
 <coolItem id="com.genuitec.eclipse.uml.actions" itemType="typeToolBarContribution" x="61" y="22"/>
 <coolItem id="com.genuitec.eclipse.web20.actionset" itemType="typeToolBarContribution" x="38" y="22"/>
+<coolItem id="com.genuitec.eclipse.webdesigner3.editors.html" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="com.genuitec.eclipse.webdesigner3.editors.jsp" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="com.genuitec.eclipse.ws.xfire.actions" itemType="typeToolBarContribution" x="95" y="22"/>
 <coolItem id="com.genuitec.myeclipse.actions.deploytools" itemType="typeToolBarContribution" x="101" y="22"/>
 <coolItem id="com.genuitec.myeclipse.actions.desktop" itemType="typeToolBarContribution" x="61" y="22"/>
 <coolItem id="com.genuitec.myeclipse.actions.reporting" itemType="typeToolBarContribution" x="78" y="22"/>
 <coolItem id="com.genuitec.myeclipse.actions.screencapture" itemType="typeToolBarContribution" x="55" y="22"/>
+<coolItem id="org.eclipse.debug.ui.NoSourceFoundEditor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="175" y="22"/>
+<coolItem id="org.eclipse.jdt.ui.ClassFileEditor" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="org.eclipse.jdt.ui.JavaElementCreationActionSet" itemType="typeToolBarContribution" x="78" y="22"/>
 <coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="101" y="22"/>
-<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="107" y="22"/>
+<coolItem id="org.eclipse.ui.DefaultTextEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="61" y="22"/>
+<coolItem id="org.eclipse.wst.css.core.csssource.source" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.wst.jsdt.ui.CompilationUnitEditor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="org.eclipse.wst.xml.ui.perspective.NewFileToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
-<coolItem id="org.eclipse.wst.xml.ui.design.DesignToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.wst.xml.ui.design.DesignToolBar" itemType="typeToolBarContribution" x="61" y="22"/>
+<coolItem id="org.jboss.tools.common.propertieseditor.PropertiesCompoundEditor" itemType="typePlaceholder" x="38" y="22"/>
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="198" y="22"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
+<coolItem id="com.genuitec.eclipse.j2eedt.core.editor.tld" itemType="typePlaceholder" x="38" y="22"/>
 <coolItem id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" itemType="typeToolBarContribution" x="-1" y="-1"/>
-<coolItem id="com.genuitec.eclipse.springframework.springconfigeditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
-<coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="group.help" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
 </coolbarLayout>
-<page aggregateWorkingSetId="Aggregate for window 1422146099668" focus="true" label="Workspace - MyEclipse Java Enterprise">
+<page aggregateWorkingSetId="Aggregate for window 1422576761638" focus="true" label="Workspace - MyEclipse Java Enterprise">
 <editors>
 <editorArea activeWorkbook="DefaultEditorWorkbook">
 <info part="DefaultEditorWorkbook">
@@ -50,53 +59,133 @@
 <part id="8"/>
 <part id="9"/>
 <part id="10"/>
+<part id="11"/>
+<part id="12"/>
+<part id="13"/>
+<part id="14"/>
+<part id="15"/>
+<part id="16"/>
+<part id="17"/>
+<part id="18"/>
+<part id="19"/>
+<part id="20"/>
+<part id="21"/>
+<part id="22"/>
+<part id="23"/>
+<part id="24"/>
+<part id="25"/>
+<part id="26"/>
+<part id="27"/>
+<part id="28"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="StudentServiceImp.java" partName="StudentServiceImp.java" path="F:/大学生创新项目管理平台 - 副本/ProjectManagement/ProjectManagement/src/org/future/projectManagement/service/imp/StudentServiceImp.java" title="StudentServiceImp.java" tooltip="ProjectManagement/src/org/future/projectManagement/service/imp/StudentServiceImp.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ProjectManagement/src/org/future/projectManagement/service/imp/StudentServiceImp.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="9639" selectionTopPixel="4132"/>
+</editor>
 <editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="StudentAction.java" partName="StudentAction.java" path="F:/大学生创新项目管理平台 - 副本/ProjectManagement/ProjectManagement/src/org/future/projectManagement/action/StudentAction.java" title="StudentAction.java" tooltip="ProjectManagement/src/org/future/projectManagement/action/StudentAction.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ProjectManagement/src/org/future/projectManagement/action/StudentAction.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1265" selectionTopPixel="87"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="6336" selectionTopPixel="3192"/>
 </editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Project.java" partName="Project.java" path="F:/大学生创新项目管理平台 - 副本/ProjectManagement/ProjectManagement/src/org/future/projectManagement/bean/Project.java" title="Project.java" tooltip="ProjectManagement/src/org/future/projectManagement/bean/Project.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ProjectManagement/src/org/future/projectManagement/bean/Project.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1822" selectionTopPixel="462"/>
+<editor id="com.genuitec.eclipse.webdesigner3.editors.jsp" name="lookReportProjectUI.jsp" partName="lookReportProjectUI.jsp" path="F:/大学生创新项目管理平台 - 副本/ProjectManagement/ProjectManagement/WebRoot/WEB-INF/jsp/student/project/lookReportProjectUI.jsp" title="lookReportProjectUI.jsp" tooltip="ProjectManagement/WebRoot/WEB-INF/jsp/student/project/lookReportProjectUI.jsp" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ProjectManagement/WebRoot/WEB-INF/jsp/student/project/lookReportProjectUI.jsp"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="DocConverter.java" partName="DocConverter.java" path="F:/大学生创新项目管理平台 - 副本/ProjectManagement/ProjectManagement/src/org/future/projectManagement/utils/DocConverter.java" title="DocConverter.java" tooltip="ProjectManagement/src/org/future/projectManagement/utils/DocConverter.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ProjectManagement/src/org/future/projectManagement/utils/DocConverter.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="5351" selectionTopPixel="1276"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ProjectData.java" partName="ProjectData.java" path="F:/大学生创新项目管理平台 - 副本/ProjectManagement/ProjectManagement/src/org/future/projectManagement/bean/ProjectData.java" title="ProjectData.java" tooltip="ProjectManagement/src/org/future/projectManagement/bean/ProjectData.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ProjectManagement/src/org/future/projectManagement/bean/ProjectData.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="1" selectionOffset="2607" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Thesis.java" partName="Thesis.java" path="F:/大学生创新项目管理平台 - 副本/ProjectManagement/ProjectManagement/src/org/future/projectManagement/bean/Thesis.java" title="Thesis.java" tooltip="ProjectManagement/src/org/future/projectManagement/bean/Thesis.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ProjectManagement/src/org/future/projectManagement/bean/Thesis.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1549" selectionTopPixel="604"/>
 </editor>
 <editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Student.java" partName="Student.java" path="F:/大学生创新项目管理平台 - 副本/ProjectManagement/ProjectManagement/src/org/future/projectManagement/bean/Student.java" title="Student.java" tooltip="ProjectManagement/src/org/future/projectManagement/bean/Student.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ProjectManagement/src/org/future/projectManagement/bean/Student.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="897" selectionTopPixel="168"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="930" selectionTopPixel="140"/>
+</editor>
+<editor id="com.genuitec.eclipse.webdesigner3.editors.jsp" name="uploadMidUI.jsp" partName="uploadMidUI.jsp" path="F:/大学生创新项目管理平台 - 副本/ProjectManagement/ProjectManagement/WebRoot/WEB-INF/jsp/student/project/2level/uploadMidUI.jsp" title="uploadMidUI.jsp" tooltip="ProjectManagement/WebRoot/WEB-INF/jsp/student/project/2level/uploadMidUI.jsp" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ProjectManagement/WebRoot/WEB-INF/jsp/student/project/2level/uploadMidUI.jsp"/>
+</editor>
+<editor id="org.eclipse.wst.css.core.csssource.source" name="uploadPaper.css" partName="uploadPaper.css" path="F:/大学生创新项目管理平台 - 副本/ProjectManagement/ProjectManagement/WebRoot/css/uploadPaper.css" title="uploadPaper.css" tooltip="ProjectManagement/WebRoot/css/uploadPaper.css" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ProjectManagement/WebRoot/css/uploadPaper.css"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="522" selectionTopPixel="350"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Admin.java" partName="Admin.java" path="F:/大学生创新项目管理平台 - 副本/ProjectManagement/ProjectManagement/src/org/future/projectManagement/bean/Admin.java" title="Admin.java" tooltip="ProjectManagement/src/org/future/projectManagement/bean/Admin.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ProjectManagement/src/org/future/projectManagement/bean/Admin.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="268" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ColAudit.java" partName="ColAudit.java" path="F:/大学生创新项目管理平台 - 副本/ProjectManagement/ProjectManagement/src/org/future/projectManagement/bean/ColAudit.java" title="ColAudit.java" tooltip="ProjectManagement/src/org/future/projectManagement/bean/ColAudit.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ProjectManagement/src/org/future/projectManagement/bean/ColAudit.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="College.java" partName="College.java" path="F:/大学生创新项目管理平台 - 副本/ProjectManagement/ProjectManagement/src/org/future/projectManagement/bean/College.java" title="College.java" tooltip="ProjectManagement/src/org/future/projectManagement/bean/College.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ProjectManagement/src/org/future/projectManagement/bean/College.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Instructor.java" partName="Instructor.java" path="F:/大学生创新项目管理平台 - 副本/ProjectManagement/ProjectManagement/src/org/future/projectManagement/bean/Instructor.java" title="Instructor.java" tooltip="ProjectManagement/src/org/future/projectManagement/bean/Instructor.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ProjectManagement/src/org/future/projectManagement/bean/Instructor.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="439" selectionTopPixel="42"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Position.java" partName="Position.java" path="F:/大学生创新项目管理平台 - 副本/ProjectManagement/ProjectManagement/src/org/future/projectManagement/bean/Position.java" title="Position.java" tooltip="ProjectManagement/src/org/future/projectManagement/bean/Position.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ProjectManagement/src/org/future/projectManagement/bean/Position.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Project.java" partName="Project.java" path="F:/大学生创新项目管理平台 - 副本/ProjectManagement/ProjectManagement/src/org/future/projectManagement/bean/Project.java" title="Project.java" tooltip="ProjectManagement/src/org/future/projectManagement/bean/Project.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ProjectManagement/src/org/future/projectManagement/bean/Project.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="947" selectionTopPixel="126"/>
 </editor>
 <editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ProjectAndPage.java" partName="ProjectAndPage.java" path="F:/大学生创新项目管理平台 - 副本/ProjectManagement/ProjectManagement/src/org/future/projectManagement/bean/ProjectAndPage.java" title="ProjectAndPage.java" tooltip="ProjectManagement/src/org/future/projectManagement/bean/ProjectAndPage.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ProjectManagement/src/org/future/projectManagement/bean/ProjectAndPage.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1122" selectionTopPixel="728"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="84"/>
 </editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ProjectDao.java" partName="ProjectDao.java" path="F:/大学生创新项目管理平台 - 副本/ProjectManagement/ProjectManagement/src/org/future/projectManagement/dao/ProjectDao.java" title="ProjectDao.java" tooltip="ProjectManagement/src/org/future/projectManagement/dao/ProjectDao.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ProjectManagement/src/org/future/projectManagement/dao/ProjectDao.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="86" selectionTopPixel="0"/>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ProjectLog.java" partName="ProjectLog.java" path="F:/大学生创新项目管理平台 - 副本/ProjectManagement/ProjectManagement/src/org/future/projectManagement/bean/ProjectLog.java" title="ProjectLog.java" tooltip="ProjectManagement/src/org/future/projectManagement/bean/ProjectLog.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ProjectManagement/src/org/future/projectManagement/bean/ProjectLog.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="685" selectionTopPixel="0"/>
 </editor>
-<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="StudentDao.java" partName="StudentDao.java" path="F:/大学生创新项目管理平台 - 副本/ProjectManagement/ProjectManagement/src/org/future/projectManagement/dao/StudentDao.java" title="StudentDao.java" tooltip="ProjectManagement/src/org/future/projectManagement/dao/StudentDao.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ProjectManagement/src/org/future/projectManagement/dao/StudentDao.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="96" selectionTopPixel="0"/>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ProjectStatu.java" partName="ProjectStatu.java" path="F:/大学生创新项目管理平台 - 副本/ProjectManagement/ProjectManagement/src/org/future/projectManagement/bean/ProjectStatu.java" title="ProjectStatu.java" tooltip="ProjectManagement/src/org/future/projectManagement/bean/ProjectStatu.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ProjectManagement/src/org/future/projectManagement/bean/ProjectStatu.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="291" selectionTopPixel="0"/>
 </editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ProjectDaoImp.java" partName="ProjectDaoImp.java" path="F:/大学生创新项目管理平台 - 副本/ProjectManagement/ProjectManagement/src/org/future/projectManagement/dao/imp/ProjectDaoImp.java" title="ProjectDaoImp.java" tooltip="ProjectManagement/src/org/future/projectManagement/dao/imp/ProjectDaoImp.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ProjectManagement/src/org/future/projectManagement/dao/imp/ProjectDaoImp.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="235" selectionTopPixel="0"/>
+<editor id="com.genuitec.eclipse.webdesigner3.editors.jsp" name="uploadOverUI.jsp" partName="uploadOverUI.jsp" path="F:/大学生创新项目管理平台 - 副本/ProjectManagement/ProjectManagement/WebRoot/WEB-INF/jsp/student/project/2level/uploadOverUI.jsp" title="uploadOverUI.jsp" tooltip="ProjectManagement/WebRoot/WEB-INF/jsp/student/project/2level/uploadOverUI.jsp" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ProjectManagement/WebRoot/WEB-INF/jsp/student/project/2level/uploadOverUI.jsp"/>
 </editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="StudentDaoImp.java" partName="StudentDaoImp.java" path="F:/大学生创新项目管理平台 - 副本/ProjectManagement/ProjectManagement/src/org/future/projectManagement/dao/imp/StudentDaoImp.java" title="StudentDaoImp.java" tooltip="ProjectManagement/src/org/future/projectManagement/dao/imp/StudentDaoImp.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ProjectManagement/src/org/future/projectManagement/dao/imp/StudentDaoImp.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="245" selectionTopPixel="0"/>
+<editor id="com.genuitec.eclipse.webdesigner3.editors.jsp" name="uploadThesisUI.jsp" partName="uploadThesisUI.jsp" path="F:/大学生创新项目管理平台 - 副本/ProjectManagement/ProjectManagement/WebRoot/WEB-INF/jsp/student/project/2level/uploadThesisUI.jsp" title="uploadThesisUI.jsp" tooltip="ProjectManagement/WebRoot/WEB-INF/jsp/student/project/2level/uploadThesisUI.jsp" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ProjectManagement/WebRoot/WEB-INF/jsp/student/project/2level/uploadThesisUI.jsp"/>
 </editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="BaseDaoImp.java" partName="BaseDaoImp.java" path="F:/大学生创新项目管理平台 - 副本/ProjectManagement/ProjectManagement/src/org/future/projectManagement/dao/imp/BaseDaoImp.java" title="BaseDaoImp.java" tooltip="ProjectManagement/src/org/future/projectManagement/dao/imp/BaseDaoImp.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ProjectManagement/src/org/future/projectManagement/dao/imp/BaseDaoImp.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="491" selectionTopPixel="84"/>
+<editor id="com.genuitec.eclipse.webdesigner3.editors.jsp" name="uploadAchImageUI.jsp" partName="uploadAchImageUI.jsp" path="F:/大学生创新项目管理平台 - 副本/ProjectManagement/ProjectManagement/WebRoot/WEB-INF/jsp/student/project/2level/uploadAchImageUI.jsp" title="uploadAchImageUI.jsp" tooltip="ProjectManagement/WebRoot/WEB-INF/jsp/student/project/2level/uploadAchImageUI.jsp" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ProjectManagement/WebRoot/WEB-INF/jsp/student/project/2level/uploadAchImageUI.jsp"/>
 </editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="BaseDao.java" partName="BaseDao.java" path="F:/大学生创新项目管理平台 - 副本/ProjectManagement/ProjectManagement/src/org/future/projectManagement/dao/BaseDao.java" title="BaseDao.java" tooltip="ProjectManagement/src/org/future/projectManagement/dao/BaseDao.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ProjectManagement/src/org/future/projectManagement/dao/BaseDao.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="262" selectionTopPixel="0"/>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="seeAndDownloadAction.java" partName="seeAndDownloadAction.java" path="F:/大学生创新项目管理平台 - 副本/ProjectManagement/ProjectManagement/src/org/future/projectManagement/action/seeAndDownloadAction.java" title="seeAndDownloadAction.java" tooltip="ProjectManagement/src/org/future/projectManagement/action/seeAndDownloadAction.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ProjectManagement/src/org/future/projectManagement/action/seeAndDownloadAction.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="433" selectionTopPixel="86"/>
 </editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="StudentService.java" partName="StudentService.java" path="F:/大学生创新项目管理平台 - 副本/ProjectManagement/ProjectManagement/src/org/future/projectManagement/service/StudentService.java" title="StudentService.java" tooltip="ProjectManagement/src/org/future/projectManagement/service/StudentService.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ProjectManagement/src/org/future/projectManagement/service/StudentService.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="365" selectionTopPixel="0"/>
+<editor id="com.genuitec.eclipse.struts2.editor" name="struts.xml" partName="struts.xml" path="F:/大学生创新项目管理平台 - 副本/ProjectManagement/ProjectManagement/src/struts.xml" title="struts.xml" tooltip="ProjectManagement/src/struts.xml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ProjectManagement/src/struts.xml"/>
+</editor>
+<editor id="com.genuitec.eclipse.webdesigner3.editors.jsp" name="index.jsp" partName="index.jsp" path="F:/大学生创新项目管理平台 - 副本/ProjectManagement/ProjectManagement/WebRoot/WEB-INF/jsp/student/main/index.jsp" title="index.jsp" tooltip="ProjectManagement/WebRoot/WEB-INF/jsp/student/main/index.jsp" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ProjectManagement/WebRoot/WEB-INF/jsp/student/main/index.jsp"/>
+</editor>
+<editor id="com.genuitec.eclipse.webdesigner3.editors.jsp" name="top.jsp" partName="top.jsp" path="F:/大学生创新项目管理平台 - 副本/ProjectManagement/ProjectManagement/WebRoot/WEB-INF/jsp/student/main/top.jsp" title="top.jsp" tooltip="ProjectManagement/WebRoot/WEB-INF/jsp/student/main/top.jsp" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ProjectManagement/WebRoot/WEB-INF/jsp/student/main/top.jsp"/>
+</editor>
+<editor id="com.genuitec.eclipse.webdesigner3.editors.jsp" name="lookProjectLogUI.jsp" partName="lookProjectLogUI.jsp" path="F:/大学生创新项目管理平台 - 副本/ProjectManagement/ProjectManagement/WebRoot/WEB-INF/jsp/student/project/2level/lookProjectLogUI.jsp" title="lookProjectLogUI.jsp" tooltip="ProjectManagement/WebRoot/WEB-INF/jsp/student/project/2level/lookProjectLogUI.jsp" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ProjectManagement/WebRoot/WEB-INF/jsp/student/project/2level/lookProjectLogUI.jsp"/>
+</editor>
+<editor id="org.eclipse.wst.css.core.csssource.source" name="checkProject.css" partName="checkProject.css" path="F:/大学生创新项目管理平台 - 副本/ProjectManagement/ProjectManagement/WebRoot/css/checkProject.css" title="checkProject.css" tooltip="ProjectManagement/WebRoot/css/checkProject.css" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ProjectManagement/WebRoot/css/checkProject.css"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="998" selectionTopPixel="504"/>
+</editor>
+<editor id="org.eclipse.wst.css.core.csssource.source" name="seeDocUI.css" partName="seeDocUI.css" path="F:/大学生创新项目管理平台 - 副本/ProjectManagement/ProjectManagement/WebRoot/css/seeDocUI.css" title="seeDocUI.css" tooltip="ProjectManagement/WebRoot/css/seeDocUI.css" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ProjectManagement/WebRoot/css/seeDocUI.css"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="79" selectionTopPixel="0"/>
+</editor>
+<editor activePart="true" focus="true" id="com.genuitec.eclipse.webdesigner3.editors.jsp" name="seeDocUI.jsp" partName="seeDocUI.jsp" path="F:/大学生创新项目管理平台 - 副本/ProjectManagement/ProjectManagement/WebRoot/WEB-INF/jsp/seeAndDownload/see/midCheck/seeDocUI.jsp" title="seeDocUI.jsp" tooltip="ProjectManagement/WebRoot/WEB-INF/jsp/seeAndDownload/see/midCheck/seeDocUI.jsp" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ProjectManagement/WebRoot/WEB-INF/jsp/seeAndDownload/see/midCheck/seeDocUI.jsp"/>
 </editor>
 </editors>
 <views>
@@ -115,12 +204,7 @@
 <viewState/>
 </view>
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
-<viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.locationField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
-<expanded>
-<category IMemento.internal.id="Warnings"/>
-<category IMemento.internal.id="Errors"/>
-<category IMemento.internal.id="Warnings (13 items)"/>
-</expanded>
+<viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
 <columnWidths org.eclipse.ui.ide.locationField="90" org.eclipse.ui.ide.markerType="90" org.eclipse.ui.ide.pathField="120" org.eclipse.ui.ide.resourceField="90" org.eclipse.ui.ide.severityAndDescriptionField="300"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
@@ -128,6 +212,9 @@
 <visible IMemento.internal.id="org.eclipse.ui.ide.locationField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.markerType"/>
 </viewState>
+</view>
+<view id="org.eclipse.debug.ui.DebugView" partName="Debug">
+<viewState/>
 </view>
 <view id="org.eclipse.ui.console.ConsoleView" partName="Console">
 <viewState/>
@@ -167,7 +254,7 @@
 <viewState/>
 </view>
 </views>
-<perspectives activePart="org.eclipse.jdt.ui.CompilationUnitEditor" activePerspective="com.genuitec.myeclipse.perspective.myeclipseperspective">
+<perspectives activePart="org.eclipse.ui.console.ConsoleView" activePerspective="com.genuitec.myeclipse.perspective.myeclipseperspective">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="com.genuitec.myeclipse.perspective.MyEclipsePerspectiveFactory" id="com.genuitec.myeclipse.perspective.myeclipseperspective" label="MyEclipse Java Enterprise"/>
 <alwaysOnActionSet id="com.genuitec.myeclipse.actions.deploytools"/>
@@ -212,6 +299,7 @@
 <alwaysOnActionSet id="com.genuitec.eclipse.uml2.ui.actions"/>
 <alwaysOnActionSet id="org.eclipse.debug.ui.profileActionSet"/>
 <alwaysOnActionSet id="com.genuitec.eclipse.web20.actionset"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.debugActionSet"/>
 <show_view_action id="com.genuitec.eclipse.ast.deploy.core.serverview"/>
 <show_view_action id="org.eclipse.jdt.ui.PackageExplorer"/>
 <show_view_action id="org.eclipse.jdt.ui.TypeHierarchy"/>
@@ -267,11 +355,12 @@
 <view id="org.eclipse.wst.common.snippets.internal.ui.SnippetsView"/>
 <view id="org.eclipse.ui.views.ContentOutline"/>
 <view id="org.eclipse.ui.views.PropertySheet"/>
+<view id="org.eclipse.debug.ui.DebugView"/>
 <view id="org.eclipse.ui.views.ProblemView"/>
 <view id="org.eclipse.ui.views.TaskList"/>
 <view id="com.genuitec.eclipse.ui.HTMLView"/>
-<view id="com.genuitec.eclipse.ast.deploy.core.serverview"/>
 <view id="org.eclipse.ui.console.ConsoleView"/>
+<view id="com.genuitec.eclipse.ast.deploy.core.serverview"/>
 <fastViewBars/>
 <layout>
 <mainWindow>
@@ -285,10 +374,11 @@
 <page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
 <page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
-<info part="org.eclipse.ui.editorss" ratio="0.2811808" ratioLeft="381" ratioRight="974" relationship="2" relative="cvslocation"/>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@42d6f628" ratio="0.75" ratioLeft="600" ratioRight="200" relationship="2" relative="org.eclipse.ui.editorss">
+<info part="org.eclipse.ui.editorss" ratio="0.25239852" ratioLeft="342" ratioRight="1013" relationship="2" relative="cvslocation"/>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@15edfab8" ratio="0.8896982" ratioLeft="855" ratioRight="106" relationship="2" relative="org.eclipse.ui.editorss">
 <folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
@@ -296,29 +386,31 @@
 </presentation>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@2ebade60" ratio="0.54943275" ratioLeft="339" ratioRight="278" relationship="4" relative="org.eclipse.ui.internal.ViewStack@42d6f628">
-<folder activePageID="org.eclipse.ui.views.PropertySheet" appearance="2" expanded="2">
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@3ae75147" ratio="0.54943275" ratioLeft="339" ratioRight="278" relationship="4" relative="org.eclipse.ui.internal.ViewStack@15edfab8">
+<folder activePageID="org.eclipse.debug.ui.DebugView" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.PropertySheet" label="Properties"/>
+<page content="org.eclipse.debug.ui.DebugView" label="Debug"/>
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
+<part id="1"/>
 </presentation>
 </folder>
 </info>
-<info folder="true" part="bottom" ratio="0.7615132" ratioLeft="463" ratioRight="145" relationship="4" relative="org.eclipse.ui.editorss">
+<info folder="true" part="bottom" ratio="0.6480263" ratioLeft="394" ratioRight="214" relationship="4" relative="org.eclipse.ui.editorss">
 <folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
 <page content="org.eclipse.ui.views.TaskList" label="Tasks"/>
 <page content="com.genuitec.eclipse.ui.HTMLView" label="Web Browser"/>
-<page content="com.genuitec.eclipse.ast.deploy.core.serverview" label="Servers"/>
 <page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
+<page content="com.genuitec.eclipse.ast.deploy.core.serverview" label="Servers"/>
 <page content="org.eclipse.search.ui.views.SearchView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
 <part id="1"/>
 <part id="2"/>
-<part id="4"/>
 <part id="3"/>
+<part id="4"/>
 </presentation>
 </folder>
 </info>
@@ -333,7 +425,7 @@
 </presentation>
 </folder>
 </info>
-<info folder="true" part="bottomleft" ratio="0.65460527" ratioLeft="398" ratioRight="210" relationship="4" relative="topleft">
+<info folder="true" part="bottomleft" ratio="0.82236844" ratioLeft="500" ratioRight="108" relationship="4" relative="topleft">
 <folder activePageID="uky.article.imageviewer.views.ImageView" appearance="2" expanded="2">
 <page content="uky.article.imageviewer.views.ImageView" label="Image Preview"/>
 <page content="org.eclipse.wst.common.snippets.internal.ui.SnippetsView" label="Snippets"/>
@@ -350,168 +442,110 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/ProjectManagement/src/org/future/projectManagement/dao/ProjectDao.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/ProjectManagement/src/org/future/projectManagement/dao/StudentDao.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/ProjectManagement/src/org/future/projectManagement/dao/imp/ProjectDaoImp.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/ProjectManagement/src/org/future/projectManagement/dao/imp/StudentDaoImp.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/ProjectManagement/src/org/future/projectManagement/dao/BaseDao.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/ProjectManagement/src/org/future/projectManagement/dao/imp/BaseDaoImp.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/ProjectManagement/src/org/future/projectManagement/utils/QueryResult.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/ProjectManagement/src/org/future/projectManagement/action/StudentAction.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/ProjectManagement/src/org/future/projectManagement/service/BaseService.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/ProjectManagement/src/org/future/projectManagement/service/imp/BaseServiceImp.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/ProjectManagement/src/org/future/projectManagement/service/StudentService.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" path="/ProjectManagement/WebRoot/WEB-INF/jsp/seeAndDownload/see/midCheck/seeUI.jsp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/ProjectManagement/src/org/future/projectManagement/action/seeAndDownloadAction.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.struts2.editor" path="/ProjectManagement/src/struts.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" path="/ProjectManagement/WebRoot/WEB-INF/jsp/student/main/index.jsp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" path="/ProjectManagement/WebRoot/WEB-INF/jsp/student/main/top.jsp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.css.core.csssource.source" path="/ProjectManagement/WebRoot/css/ipms.css"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" path="/ProjectManagement/WebRoot/WEB-INF/jsp/student/project/2level/lookProjectLogUI.jsp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.css.core.csssource.source" path="/ProjectManagement/WebRoot/css/checkProject.css"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.css.core.csssource.source" path="/ProjectManagement/WebRoot/css/seeDocUI.css"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" path="/ProjectManagement/WebRoot/WEB-INF/jsp/student/project/lookReportProjectUI.jsp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" path="/ProjectManagement/WebRoot/WEB-INF/jsp/seeAndDownload/see/midCheck/seeDocUI.jsp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" path="/ProjectManagement/WebRoot/WEB-INF/jsp/seeAndDownload/see/midCheck/seeDocUI.jsp"/>
 </editors>
-<item historyLabel="StudentDaoImp.java" index="3">
-<position info="not_deleted" x="245" y="0"/>
+<item historyLabel="StudentAction.java" index="0">
+<position info="not_deleted" x="6336" y="0"/>
 </item>
-<item historyLabel="StudentDao.java" index="1">
-<position info="not_deleted" x="99" y="0"/>
+<item historyLabel="struts.xml" index="3"/>
+<item historyLabel="seeAndDownloadAction.java" index="2">
+<position info="not_deleted" x="433" y="0"/>
 </item>
-<item historyLabel="StudentDaoImp.java" index="3">
-<position info="not_deleted" x="245" y="0"/>
+<item historyLabel="struts.xml" index="3"/>
+<item historyLabel="seeAndDownloadAction.java" index="2">
+<position info="not_deleted" x="519" y="0"/>
 </item>
-<item historyLabel="BaseDao.java" index="4">
-<position info="not_deleted" x="139" y="0"/>
+<item historyLabel="struts.xml" index="3"/>
+<item historyLabel="index.jsp" index="4"/>
+<item historyLabel="top.jsp" index="5"/>
+<item historyLabel="ipms.css" index="6">
+<position info="not_deleted" x="121" y="0"/>
 </item>
-<item historyLabel="ProjectDao.java" index="0">
-<position info="not_deleted" x="86" y="0"/>
+<item historyLabel="top.jsp" index="5"/>
+<item historyLabel="ipms.css" index="6">
+<position info="not_deleted" x="174" y="0"/>
 </item>
-<item historyLabel="ProjectDaoImp.java" index="2">
-<position info="not_deleted" x="235" y="0"/>
+<item historyLabel="seeAndDownloadAction.java" index="2">
+<position info="not_deleted" x="433" y="0"/>
 </item>
-<item historyLabel="BaseDao.java" index="4">
-<position info="not_deleted" x="171" y="0"/>
+<item historyLabel="seeUI.jsp" index="1"/>
+<item historyLabel="lookProjectLogUI.jsp" index="7"/>
+<item historyLabel="checkProject.css" index="8">
+<position info="not_deleted" x="910" y="24"/>
 </item>
-<item historyLabel="ProjectDao.java" index="0">
-<position info="not_deleted" x="86" y="0"/>
+<item historyLabel="lookProjectLogUI.jsp" index="7"/>
+<item historyLabel="ipms.css" index="6">
+<position info="not_deleted" x="174" y="0"/>
 </item>
-<item historyLabel="StudentDao.java" index="1">
-<position info="not_deleted" x="99" y="0"/>
-</item>
-<item historyLabel="BaseDao.java" index="4">
-<position info="not_deleted" x="100" y="0"/>
-</item>
-<item historyLabel="BaseDaoImp.java" index="5">
-<position info="not_deleted" x="491" y="0"/>
-</item>
-<item historyLabel="ProjectDaoImp.java" index="2">
-<position info="not_deleted" x="235" y="0"/>
-</item>
-<item historyLabel="StudentDaoImp.java" index="3">
-<position info="not_deleted" x="245" y="0"/>
-</item>
-<item historyLabel="QueryResult.java" index="6">
+<item historyLabel="seeUI.jsp" index="1"/>
+<item historyLabel="seeDocUI.css" index="9">
 <position/>
 </item>
-<item historyLabel="StudentDaoImp.java" index="3">
-<position info="not_deleted" x="245" y="0"/>
+<item historyLabel="seeUI.jsp" index="1"/>
+<item historyLabel="seeDocUI.css" index="9">
+<position/>
 </item>
-<item historyLabel="QueryResult.java" index="6">
-<position info="not_deleted" x="102" y="0"/>
+<item historyLabel="checkProject.css" index="8">
+<position info="not_deleted" x="910" y="24"/>
 </item>
-<item historyLabel="StudentDaoImp.java" index="3">
-<position info="not_deleted" x="245" y="0"/>
+<item historyLabel="seeUI.jsp" index="1"/>
+<item historyLabel="seeDocUI.css" index="9">
+<position info="not_deleted" x="195" y="0"/>
 </item>
-<item historyLabel="BaseDao.java" index="4">
-<position info="not_deleted" x="100" y="0"/>
+<item historyLabel="checkProject.css" index="8">
+<position info="not_deleted" x="910" y="24"/>
 </item>
-<item historyLabel="StudentDaoImp.java" index="3">
-<position info="not_deleted" x="245" y="0"/>
+<item historyLabel="seeUI.jsp" index="1"/>
+<item historyLabel="seeDocUI.css" index="9">
+<position info="not_deleted" x="179" y="0"/>
 </item>
-<item historyLabel="StudentAction.java" index="7">
-<position info="not_deleted" x="3450" y="0"/>
+<item historyLabel="checkProject.css" index="8">
+<position info="not_deleted" x="998" y="0"/>
 </item>
-<item historyLabel="StudentAction.java" index="7">
-<position info="not_deleted" x="1265" y="0"/>
+<item historyLabel="seeDocUI.css" index="9">
+<position info="not_deleted" x="179" y="0"/>
 </item>
-<item historyLabel="BaseService.java" index="8">
-<position info="not_deleted" x="1585" y="0"/>
+<item historyLabel="seeUI.jsp" index="1"/>
+<item historyLabel="lookProjectLogUI.jsp" index="7"/>
+<item historyLabel="seeUI.jsp" index="1"/>
+<item historyLabel="seeDocUI.css" index="9">
+<position/>
 </item>
-<item historyLabel="BaseDao.java" index="4">
-<position info="not_deleted" x="398" y="1383"/>
+<item historyLabel="seeUI.jsp" index="1"/>
+<item historyLabel="ipms.css" index="6">
+<position info="not_deleted" x="129" y="0"/>
 </item>
-<item historyLabel="BaseService.java" index="8">
-<position info="not_deleted" x="233" y="0"/>
+<item historyLabel="seeUI.jsp" index="1"/>
+<item historyLabel="seeDocUI.css" index="9">
+<position/>
 </item>
-<item historyLabel="BaseServiceImp.java" index="9">
-<position info="not_deleted" x="587" y="0"/>
+<item historyLabel="seeUI.jsp" index="1"/>
+<item historyLabel="lookProjectLogUI.jsp" index="7"/>
+<item historyLabel="seeAndDownloadAction.java" index="2">
+<position info="not_deleted" x="433" y="0"/>
 </item>
-<item historyLabel="BaseDao.java" index="4">
-<position info="not_deleted" x="429" y="0"/>
-</item>
-<item historyLabel="BaseServiceImp.java" index="9">
-<position info="not_deleted" x="587" y="0"/>
-</item>
-<item historyLabel="BaseDao.java" index="4">
-<position info="not_deleted" x="263" y="0"/>
-</item>
-<item historyLabel="BaseServiceImp.java" index="9">
-<position info="not_deleted" x="587" y="0"/>
-</item>
-<item historyLabel="BaseDao.java" index="4">
-<position info="not_deleted" x="263" y="0"/>
-</item>
-<item historyLabel="BaseServiceImp.java" index="9">
-<position info="not_deleted" x="587" y="0"/>
-</item>
-<item historyLabel="BaseDao.java" index="4">
-<position info="not_deleted" x="263" y="0"/>
-</item>
-<item historyLabel="BaseServiceImp.java" index="9">
-<position info="not_deleted" x="288" y="1988"/>
-</item>
-<item historyLabel="BaseDao.java" index="4">
-<position info="not_deleted" x="355" y="40"/>
-</item>
-<item historyLabel="StudentService.java" index="10">
-<position info="not_deleted" x="369" y="0"/>
-</item>
-<item historyLabel="BaseDao.java" index="4">
-<position info="not_deleted" x="355" y="40"/>
-</item>
-<item historyLabel="StudentService.java" index="10">
-<position info="not_deleted" x="369" y="0"/>
-</item>
-<item historyLabel="BaseDao.java" index="4">
-<position info="not_deleted" x="355" y="40"/>
-</item>
-<item historyLabel="StudentService.java" index="10">
-<position info="not_deleted" x="369" y="0"/>
-</item>
-<item historyLabel="StudentService.java" index="10">
-<position info="not_deleted" x="365" y="0"/>
-</item>
-<item historyLabel="StudentDao.java" index="1">
-<position info="not_deleted" x="92" y="0"/>
-</item>
-<item historyLabel="StudentService.java" index="10">
-<position info="not_deleted" x="355" y="10"/>
-</item>
-<item historyLabel="BaseDao.java" index="4">
-<position info="not_deleted" x="262" y="0"/>
-</item>
-<item historyLabel="StudentDao.java" index="1">
-<position info="not_deleted" x="93" y="0"/>
-</item>
-<item historyLabel="StudentService.java" index="10">
-<position info="not_deleted" x="171" y="0"/>
-</item>
-<item historyLabel="StudentDao.java" index="1">
-<position info="not_deleted" x="92" y="0"/>
-</item>
-<item historyLabel="StudentService.java" index="10">
-<position info="not_deleted" x="365" y="0"/>
-</item>
-<item historyLabel="StudentDao.java" index="1">
-<position info="not_deleted" x="92" y="0"/>
-</item>
-<item historyLabel="StudentService.java" index="10">
-<position info="not_deleted" x="365" y="0"/>
-</item>
-<item active="true" historyLabel="StudentDao.java" index="1">
-<position info="not_deleted" x="92" y="0"/>
-</item>
+<item historyLabel="lookProjectLogUI.jsp" index="7"/>
+<item historyLabel="lookReportProjectUI.jsp" index="10"/>
+<item historyLabel="struts.xml" index="3"/>
+<item historyLabel="seeUI.jsp" index="1"/>
+<item historyLabel="struts.xml" index="3"/>
+<item historyLabel="seeDocUI.jsp" index="11"/>
+<item historyLabel="struts.xml" index="3"/>
+<item historyLabel="seeDocUI.jsp" index="11"/>
+<item historyLabel="struts.xml" index="3"/>
+<item active="true" historyLabel="seeDocUI.jsp" index="12"/>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
 </page>
@@ -529,50 +563,50 @@
 </trimLayout>
 </window>
 <mruList>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="StudentService.java" tooltip="ProjectManagement/src/org/future/projectManagement/service/StudentService.java">
-<persistable path="/ProjectManagement/src/org/future/projectManagement/service/StudentService.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" name="seeDocUI.jsp" tooltip="ProjectManagement/WebRoot/WEB-INF/jsp/seeAndDownload/see/midCheck/seeDocUI.jsp">
+<persistable path="/ProjectManagement/WebRoot/WEB-INF/jsp/seeAndDownload/see/midCheck/seeDocUI.jsp"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="BaseServiceImp.java" tooltip="ProjectManagement/src/org/future/projectManagement/service/imp/BaseServiceImp.java">
-<persistable path="/ProjectManagement/src/org/future/projectManagement/service/imp/BaseServiceImp.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.css.core.csssource.source" name="seeDocUI.css" tooltip="ProjectManagement/WebRoot/css/seeDocUI.css">
+<persistable path="/ProjectManagement/WebRoot/css/seeDocUI.css"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="BaseDao.java" tooltip="ProjectManagement/src/org/future/projectManagement/dao/BaseDao.java">
-<persistable path="/ProjectManagement/src/org/future/projectManagement/dao/BaseDao.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.css.core.csssource.source" name="checkProject.css" tooltip="ProjectManagement/WebRoot/css/checkProject.css">
+<persistable path="/ProjectManagement/WebRoot/css/checkProject.css"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="BaseService.java" tooltip="ProjectManagement/src/org/future/projectManagement/service/BaseService.java">
-<persistable path="/ProjectManagement/src/org/future/projectManagement/service/BaseService.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" name="lookProjectLogUI.jsp" tooltip="ProjectManagement/WebRoot/WEB-INF/jsp/student/project/2level/lookProjectLogUI.jsp">
+<persistable path="/ProjectManagement/WebRoot/WEB-INF/jsp/student/project/2level/lookProjectLogUI.jsp"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="QueryResult.java" tooltip="ProjectManagement/src/org/future/projectManagement/utils/QueryResult.java">
-<persistable path="/ProjectManagement/src/org/future/projectManagement/utils/QueryResult.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.css.core.csssource.source" name="ipms.css" tooltip="ProjectManagement/WebRoot/css/ipms.css">
+<persistable path="/ProjectManagement/WebRoot/css/ipms.css"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="BaseDaoImp.java" tooltip="ProjectManagement/src/org/future/projectManagement/dao/imp/BaseDaoImp.java">
-<persistable path="/ProjectManagement/src/org/future/projectManagement/dao/imp/BaseDaoImp.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" name="top.jsp" tooltip="ProjectManagement/WebRoot/WEB-INF/jsp/student/main/top.jsp">
+<persistable path="/ProjectManagement/WebRoot/WEB-INF/jsp/student/main/top.jsp"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="StudentDaoImp.java" tooltip="ProjectManagement/src/org/future/projectManagement/dao/imp/StudentDaoImp.java">
-<persistable path="/ProjectManagement/src/org/future/projectManagement/dao/imp/StudentDaoImp.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" name="index.jsp" tooltip="ProjectManagement/WebRoot/WEB-INF/jsp/student/main/index.jsp">
+<persistable path="/ProjectManagement/WebRoot/WEB-INF/jsp/student/main/index.jsp"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ProjectDaoImp.java" tooltip="ProjectManagement/src/org/future/projectManagement/dao/imp/ProjectDaoImp.java">
-<persistable path="/ProjectManagement/src/org/future/projectManagement/dao/imp/ProjectDaoImp.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.struts2.editor" name="struts.xml" tooltip="ProjectManagement/src/struts.xml">
+<persistable path="/ProjectManagement/src/struts.xml"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="StudentDao.java" tooltip="ProjectManagement/src/org/future/projectManagement/dao/StudentDao.java">
-<persistable path="/ProjectManagement/src/org/future/projectManagement/dao/StudentDao.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="seeAndDownloadAction.java" tooltip="ProjectManagement/src/org/future/projectManagement/action/seeAndDownloadAction.java">
+<persistable path="/ProjectManagement/src/org/future/projectManagement/action/seeAndDownloadAction.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ProjectDao.java" tooltip="ProjectManagement/src/org/future/projectManagement/dao/ProjectDao.java">
-<persistable path="/ProjectManagement/src/org/future/projectManagement/dao/ProjectDao.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" name="uploadAchImageUI.jsp" tooltip="ProjectManagement/WebRoot/WEB-INF/jsp/student/project/2level/uploadAchImageUI.jsp">
+<persistable path="/ProjectManagement/WebRoot/WEB-INF/jsp/student/project/2level/uploadAchImageUI.jsp"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" name="uploadThesisUI.jsp" tooltip="ProjectManagement/WebRoot/WEB-INF/jsp/student/project/2level/uploadThesisUI.jsp">
+<persistable path="/ProjectManagement/WebRoot/WEB-INF/jsp/student/project/2level/uploadThesisUI.jsp"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" name="uploadOverUI.jsp" tooltip="ProjectManagement/WebRoot/WEB-INF/jsp/student/project/2level/uploadOverUI.jsp">
+<persistable path="/ProjectManagement/WebRoot/WEB-INF/jsp/student/project/2level/uploadOverUI.jsp"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ProjectStatu.java" tooltip="ProjectManagement/src/org/future/projectManagement/bean/ProjectStatu.java">
+<persistable path="/ProjectManagement/src/org/future/projectManagement/bean/ProjectStatu.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ProjectLog.java" tooltip="ProjectManagement/src/org/future/projectManagement/bean/ProjectLog.java">
+<persistable path="/ProjectManagement/src/org/future/projectManagement/bean/ProjectLog.java"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ProjectAndPage.java" tooltip="ProjectManagement/src/org/future/projectManagement/bean/ProjectAndPage.java">
 <persistable path="/ProjectManagement/src/org/future/projectManagement/bean/ProjectAndPage.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Student.java" tooltip="ProjectManagement/src/org/future/projectManagement/bean/Student.java">
-<persistable path="/ProjectManagement/src/org/future/projectManagement/bean/Student.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Project.java" tooltip="ProjectManagement/src/org/future/projectManagement/bean/Project.java">
-<persistable path="/ProjectManagement/src/org/future/projectManagement/bean/Project.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="StudentAction.java" tooltip="ProjectManagement/src/org/future/projectManagement/action/StudentAction.java">
-<persistable path="/ProjectManagement/src/org/future/projectManagement/action/StudentAction.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" name="web.xml" tooltip="ProjectManagement/WebRoot/WEB-INF/web.xml">
-<persistable path="/ProjectManagement/WebRoot/WEB-INF/web.xml"/>
 </file>
 </mruList>
 </workbench>
