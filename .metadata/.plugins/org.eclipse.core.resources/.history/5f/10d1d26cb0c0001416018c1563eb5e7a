@@ -1,0 +1,15 @@
+package org.future.projectManagement.utils;
+
+public class WhereBuild {
+	public String whereBuild(String[] wheres){
+		String where = null;
+		if(wheres.length == 0){
+			return null;
+		}else{
+			for(String name : wheres){
+				
+			}
+			return where;
+		}
+	}
+}

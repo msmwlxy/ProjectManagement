@@ -1,20 +1,41 @@
-#Wed Jan 28 22:40:00 CST 2015
+#Tue Mar 03 16:36:26 CST 2015
 content_assist_proposals_foreground=0,0,0
-spelling_locale_initialized=true
-org.eclipse.jdt.ui.text.templates_migrated=true
-useAnnotationsPrefPage=true
-eclipse.preferences.version=1
-org.eclipse.jface.textfont=1|Consolas|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|0|3|2|1|49|Consolas;
-tabWidthPropagated=true
-org.eclipse.jdt.ui.editor.tab.width=
-fontPropagated=true
 org.eclipse.jdt.ui.text.custom_code_templates=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates/>
-org.eclipse.jdt.ui.javadoclocations.migrated=true
-proposalOrderMigrated=true
-org.eclipse.jdt.ui.formatterprofiles.version=12
 content_assist_proposals_background=255,255,255
-content_assist_number_of_computers=17
+spelling_ignore_digits=true
 useQuickDiffPrefPage=true
-org.eclipse.jdt.ui.text.custom_templates=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates/>
-content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="java.lang.Enum"><rhs name\="javax.persistence.TemporalType"/><rhs name\="javax.persistence.CascadeType"/></lhs><lhs name\="org.future.projectManagement.bean.Project"><rhs name\="org.future.projectManagement.bean.Project"/></lhs></history>
+spelling_ignore_upper=true
+org.eclipse.jdt.ui.overrideannotation=true
+content_assist_number_of_computers=17
+useAnnotationsPrefPage=true
+spelling_ignore_single_letters=true
+org.eclipse.jdt.ui.staticondemandthreshold=99
+spelling_ignore_urls=true
+spelling_locale_initialized=true
+fontPropagated=true
+sourceHoverBackgroundColor=255,255,225
+org.eclipse.jdt.ui.exception.name=e
+org.eclipse.jdt.ui.editor.tab.width=
 org.eclipse.jdt.ui.text.code_templates_migrated=true
+org.eclipse.jdt.ui.text.templates_migrated=true
+org.eclipse.jdt.ui.gettersetter.use.is=true
+org.eclipse.jdt.ui.importorder=java;javax;org;com;
+org.eclipse.jface.textfont=1|Consolas|11.25|0|WINDOWS|1|-15|0|0|0|400|0|0|0|0|3|2|1|49|Consolas;
+spelling_ignore_non_letters=true
+tabWidthPropagated=true
+content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="java.lang.Enum"><rhs name\="javax.persistence.TemporalType"/><rhs name\="javax.persistence.CascadeType"/></lhs><lhs name\="org.future.projectManagement.bean.Project"><rhs name\="org.future.projectManagement.bean.Project"/></lhs><lhs name\="org.springframework.core.env.EnvironmentCapable"><rhs name\="org.springframework.context.support.ClassPathXmlApplicationContext"/></lhs><lhs name\="org.springframework.beans.factory.ListableBeanFactory"><rhs name\="org.springframework.context.support.ClassPathXmlApplicationContext"/></lhs><lhs name\="org.springframework.beans.factory.HierarchicalBeanFactory"><rhs name\="org.springframework.context.support.ClassPathXmlApplicationContext"/></lhs><lhs name\="org.springframework.context.MessageSource"><rhs name\="org.springframework.context.support.ClassPathXmlApplicationContext"/></lhs><lhs name\="org.springframework.context.ApplicationEventPublisher"><rhs name\="org.springframework.context.support.ClassPathXmlApplicationContext"/></lhs><lhs name\="org.springframework.core.io.support.ResourcePatternResolver"><rhs name\="org.springframework.context.support.ClassPathXmlApplicationContext"/></lhs><lhs name\="org.springframework.beans.factory.BeanFactory"><rhs name\="org.springframework.context.support.ClassPathXmlApplicationContext"/></lhs><lhs name\="org.springframework.core.io.ResourceLoader"><rhs name\="org.springframework.context.support.ClassPathXmlApplicationContext"/></lhs><lhs name\="org.springframework.context.ApplicationContext"><rhs name\="org.springframework.context.support.ClassPathXmlApplicationContext"/></lhs><lhs name\="java.lang.Number"><rhs name\="java.lang.Integer"/></lhs></history>
+spelling_ignore_java_strings=true
+outlinesortoption=T,SF,SI,SM,F,I,C,M,
+spelling_ignore_mixed=true
+org.eclipse.jdt.ui.javadoclocations.migrated=true
+eclipse.preferences.version=1
+org.eclipse.jdt.ui.formatterprofiles.version=12
+org.eclipse.jdt.ui.ondemandthreshold=99
+content_assist_favorite_static_members=
+proposalOrderMigrated=true
+spelling_ignore_ampersand_in_properties=true
+org.eclipse.jdt.ui.text.custom_templates=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates/>
+spelling_user_dictionary_encoding=
+spelling_ignore_sentence=true
+org.eclipse.jdt.ui.ignorelowercasenames=true
+org.eclipse.jdt.ui.visibility.order=B,V,R,D,

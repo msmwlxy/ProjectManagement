@@ -89,7 +89,7 @@ public class Student implements Serializable{
 	public void setCollege(College college) {
 		this.college = college;
 	}
-	@Column(length=35)
+	@Column(length=35,nullable=false)
 	public String getPassword() {
 		return password;
 	}

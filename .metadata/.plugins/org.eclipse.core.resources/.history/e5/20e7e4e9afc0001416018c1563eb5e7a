@@ -1,0 +1,7 @@
+package org.future.projectManagement.utils;
+
+public class WhereBuild {
+	public String whereBuild(){
+		return null;
+	}
+}

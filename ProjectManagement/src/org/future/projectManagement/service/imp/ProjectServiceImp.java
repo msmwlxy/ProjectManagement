@@ -1,5 +1,7 @@
 package org.future.projectManagement.service.imp;
 
+import java.util.List;
+
 import javax.annotation.Resource;
 
 import org.future.projectManagement.bean.Project;
@@ -19,8 +21,13 @@ public class ProjectServiceImp implements ProjectService{
 		this.projectDao = projectDao;
 	}
 	/*添加一个项目**/
-	public void add(Project project){
+	public void add(Project project){ 
 		projectDao.add(project);
+	}
+	@Override
+	public List<Project> findBySelect(Object[] parameters,String where) {
+		
+		return projectDao.getQueryResult(Project.class, parameters, where).getResult();
 	}
 	
 }

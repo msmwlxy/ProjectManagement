@@ -22,6 +22,16 @@ public class ProjectStatu implements Serializable{
 	private Integer projectStatuId;
 	/*状态名称**/
 	private String name;
+	/*标记其为否的状态**/
+	private boolean tagNo;
+	
+	
+	public boolean isTagNo() {
+		return tagNo;
+	}
+	public void setTagNo(boolean tagNo) {
+		this.tagNo = tagNo;
+	}
 	@Id
 	@GeneratedValue
 	public Integer getProjectStatuId() {

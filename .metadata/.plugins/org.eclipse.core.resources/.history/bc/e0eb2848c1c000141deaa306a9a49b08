@@ -1,0 +1,17 @@
+package org.future.projectManagement.test;
+
+import org.future.projectManagement.action.ProShowAndPubAnn;
+import org.junit.Test;
+
+public class DateTest {
+	
+	@Test
+	public void proShowAndPubAnnTest(){
+		ProShowAndPubAnn psapa = new ProShowAndPubAnn();
+		psapa.setCollegeId(8);
+		psapa.setProjectStatusId(7);
+		psapa.setStartTime("2014-08-08");
+		psapa.setProjectTypeId(1);
+		psapa.projectList();
+	}
+}

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+	"http://struts.apache.org/dtds/struts-2.3.dtd">
+
+<struts>
+
+	<constant name="struts.enable.DynamicMethodInvocation" value="false" />
+	<constant name="struts.devMode" value="true" />
+
+	<package name="default" namespace="/" extends="struts-default">
+
+		<default-action-ref name="index" />
+
+		<!-- 配置登陆Action，进行测试登陆，注册，退出功能 -->
+		<action name="log_*" class="loginAction" method="{1}">
+			<result name="loginUI">/WEB-INF/jsp/loginOutReg/Login_UI.jsp</result>
+			<result name="login">/WEB-INF/jsp/loginOutReg/BackStage.jsp</result>
+			<result name="signInUIS">/WEB-INF/jsp/loginOutReg/Student_registration.jsp</result>
+			<result name="signInUII">/WEB-INF/jsp/loginOutReg/Teacher_registration.jsp</result>			
+			<result type="redirectAction" name="signIn">log_login?identity=${identity}&amp;accountNum=${accountNum}&amp;password=${password}</result>
+			<result name="logOut">/WEB-INF/jsp/loginOutReg/LogOut.jsp</result>
+			<result name="index">/index.jsp</result>
+		</action>
+		
+		<!-- 教务处选择项目进行展示和相应的公告管理 -->
+		<action name="col_*" class="proShowAndPubAnn" method="{1}">
+			<result name=""></result>
+		</action>
+	
+	</package>
+
+</struts>

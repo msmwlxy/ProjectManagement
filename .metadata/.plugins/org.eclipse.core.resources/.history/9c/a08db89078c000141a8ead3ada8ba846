@@ -1,0 +1,82 @@
+@charset "utf-8";
+/* CSS Document */
+.header {
+	margin:-8px -8px;
+	width: auto;
+	height: 50px;
+	background-image: url("../../../../images/toulan.png");
+	font-weight: bolder;
+	font-size: 24px;
+	padding:24px 46px;
+	color: #FFF;
+}
+.right {
+	margin:0 auto;
+	/*height: auto;*/
+	width: 840px;
+}
+.right_top {
+	margin-left: 20px;
+	height: 30px;
+	width: 700px;
+	padding-top:38px;
+}
+.xiangji {
+	width: 30px;
+	height: 25px;
+	padding-top: 5px;
+	float: left;
+}
+.wenzi {
+	width: 200px;
+	height: 30px;
+	float: left;
+	line-height: 30px;
+	font-size: 18px;
+	font-weight: bolder;
+}
+.xiantiao {
+	height: 3px;
+	width: 840px;
+}
+.identity {
+	line-height: 40px;
+	width: 310px;
+	margin-top: 20px;
+	color: #1E5DBA;
+	font-weight: bolder;
+	font-size: 14px;
+}
+.identity tr {
+	height: 32px;
+	padding-left: 34px;
+}
+.identity input {
+	height: 25px;
+	width: 250px;
+}
+.chongzhi {
+	margin: 20px 60px;
+}
+
+.bottom{
+	margin-left:-8px;
+	margin-right: -8px;
+	margin-bottom:-10px;
+	width:auto;
+	height:40px;
+	line-height:40px;
+	color:#666;
+	font-size:12px;
+	text-align:center;	
+	background:url(../../../images/weilan.png) repeat scroll 0% 0%;
+}
+a:link,a:visited{
+	color:#1E5DBA;
+	text-decoration:none;
+}
+a:hover{
+	text-decoration:none;
+	color:red;
+}
+

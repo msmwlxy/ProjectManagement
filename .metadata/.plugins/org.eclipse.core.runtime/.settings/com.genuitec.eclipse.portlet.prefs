@@ -1,0 +1,4 @@
+#Sun Mar 01 11:06:01 CST 2015
+eclipse.preferences.version=1
+melibrary.com.genuitec.eclipse.portlet.PORTLET_API_JSR286.classpath=MYECLIPSE_PORTAL_HOME/jsr286/portlet_20.jar;MYECLIPSE_PORTAL_HOME/jsr286/pluto-taglib-2.0.0.jar
+melibrary.com.genuitec.eclipse.portlet.PORTLET_API.classpath=MYECLIPSE_PORTAL_HOME/portlet-api-1.0.jar;MYECLIPSE_PORTAL_HOME/pluto-taglib-1.0.1.jar

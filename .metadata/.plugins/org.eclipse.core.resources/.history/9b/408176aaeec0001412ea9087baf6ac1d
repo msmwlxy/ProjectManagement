@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+	"http://struts.apache.org/dtds/struts-2.3.dtd">
+
+<struts>
+
+	<constant name="struts.enable.DynamicMethodInvocation" value="false" />
+	<constant name="struts.devMode" value="true" />
+
+	<include file="struts_wlz.xml"></include>
+		
+		<!-- 教务处选择项目进行展示和相应的公告管理 -->
+		<action name="col_*" class="proShowAndPubAnn" method="{1}">
+			<result name="listUI">/</result>
+		</action>
+	
+	</package>
+
+</struts>

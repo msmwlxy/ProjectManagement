@@ -1,0 +1,22 @@
+package org.future.projectManagement.test;
+
+import org.future.projectManagement.action.ProShowAndPubAnn;
+import org.junit.Test;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class DateTest {
+	/**
+	 * 在ssh框架中使用Junit测试一部分功能，需要将该测试交由spring容器进行管理
+	 */
+	@Test
+	public void proShowAndPubAnnTest(){
+		ApplicationContext ac = new ClassPathXmlApplicationContext("applicationContext.xml");
+		ProShowAndPubAnn psapa = (ProShowAndPubAnn) ac.getBean("proShowAndPubAnn");
+		psapa.setCollegeId(8);
+		psapa.setProjectStatusId(7);
+		psapa.setStartTime("2014-08-08");
+		psapa.setProjectTypeId(1);
+		psapa.projectList();
+	}
+}

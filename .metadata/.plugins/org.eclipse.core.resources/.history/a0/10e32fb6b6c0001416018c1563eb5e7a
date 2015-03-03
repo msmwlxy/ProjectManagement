@@ -1,0 +1,12 @@
+package org.future.projectManagement.test;
+
+import org.future.projectManagement.action.ProShowAndPubAnn;
+import org.junit.Test;
+
+public class DateTest {
+	
+	@Test
+	public void proShowAndPubAnnTest(){
+		new ProShowAndPubAnn().projectList();
+	}
+}

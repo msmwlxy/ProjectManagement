@@ -1,6 +1,11 @@
-#Sun Jan 25 22:02:49 CST 2015
-eclipse.preferences.version=1
-tipsAndTricks=false
-platformState=1422144651932
-quickStart=false
+#Sun Mar 01 12:08:32 CST 2015
+IMPORT_FILES_AND_FOLDERS_RELATIVE=true
 PROBLEMS_FILTERS_MIGRATE=true
+quickStart=false
+tipsAndTricks=false
+TASKS_FILTERS_MIGRATE=true
+eclipse.preferences.version=1
+IMPORT_FILES_AND_FOLDERS_MODE=prompt
+platformState=1425000830363
+IMPORT_FILES_AND_FOLDERS_VIRTUAL_FOLDER_MODE=prompt
+IMPORT_FILES_AND_FOLDERS_TYPE=23,1

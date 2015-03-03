@@ -1,0 +1,4 @@
+#Sun Mar 01 11:06:02 CST 2015
+melibrary.com.genuitec.eclipse.ws.xfire.MYECLIPSE_METRO_IMPL.classpath=G\:/MyEclipse 8.5/Common/plugins/com.genuitec.eclipse.ws.xfire_9.0.0.me201109130910/lib/webservices-extra.jar;G\:/MyEclipse 8.5/Common/plugins/com.genuitec.eclipse.ws.xfire_9.0.0.me201109130910/lib/webservices-rt.jar
+melibrary.com.genuitec.eclipse.ws.xfire.MYECLIPSE_JAXWS_API.classpath=G\:/MyEclipse 8.5/Common/plugins/com.genuitec.eclipse.ws.xfire_9.0.0.me201109130910/lib/webservices-api.jar(deploy-excludes\=websphere7Server);G\:/MyEclipse 8.5/Common/plugins/com.genuitec.eclipse.ws.xfire_9.0.0.me201109130910/lib/webservices-extra-api.jar(deploy-excludes\=websphere7Server)
+eclipse.preferences.version=1

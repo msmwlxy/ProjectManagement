@@ -1,0 +1,84 @@
+package org.future.projectManagement.action;
+
+import java.util.List;
+
+import javax.annotation.Resource;
+
+import org.future.projectManagement.bean.Project;
+import org.future.projectManagement.service.ProjectService;
+import org.springframework.context.annotation.Scope;
+import org.springframework.stereotype.Component;
+
+import com.opensymphony.xwork2.ActionContext;
+import com.opensymphony.xwork2.ActionSupport;
+
+/**
+ * 
+ * @author wanglizheng
+ * @date 2015年3月2日
+ * @describe 教务处审核人进行项目展示和发布公告
+ * 
+ */
+@Component
+@Scope("prototype")
+public class ProShowAndPubAnn extends ActionSupport {
+
+	private Integer collegeId;
+	private String startTime;
+	private Integer projectTypeId;
+	private Integer projectStatusId;	
+	
+	public Integer getCollegeId() {
+		return collegeId;
+	}
+	@Resource
+	public void setCollegeId(Integer collegeId) {
+		this.collegeId = collegeId;
+	}
+	public String getStartTime() {
+		return startTime;
+	}
+	public void setStartTime(String startTime) {
+		this.startTime = startTime;
+	}
+	public Integer getProjectTypeId() {
+		return projectTypeId;
+	}
+	public void setProjectTypeId(Integer projectTypeId) {
+		this.projectTypeId = projectTypeId;
+	}
+	public Integer getProjectStatusId() {
+		return projectStatusId;
+	}
+	public void setProjectStatusId(Integer projectStatusId) {
+		this.projectStatusId = projectStatusId;
+	}
+
+	private ProjectService proSe;
+	
+
+	public ProjectService getProSe() {
+		return proSe;
+	}
+	@Resource 
+	public void setProSe(ProjectService proSe) {
+		this.proSe = proSe;
+	}
+	
+	public void projectList() {
+		Object[] parameters = {collegeId,startTime,projectTypeId,projectStatusId};
+		// 准备数据
+		List<Project> projectList = proSe.findBySelect(parameters, where);
+		ActionContext.getContext().put("projectList", projectList);
+	}
+
+	/**
+	 * 改变项目的优秀属性，该属性是项目是否展示的标志
+	 * 
+	 * @param outStanding
+	 */
+	public String changeOutStanding() {
+
+		return null;
+	}
+}

@@ -1,0 +1,24 @@
+<%@ page language="java" import="java.util.*" pageEncoding="utf-8"%>
+<%@ taglib prefix="s" uri="/struts-tags"%>
+<html>
+<head>
+<title>ItcastOA</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+</head>
+	<frameset rows="100,*,30" noresize framespacing="0" border="0">
+		
+		<frame src="top.html" noresize scrolling="no">
+		
+		<frameset cols="250,*"  noresize>
+			<frame src="left.html" name = "left" noresize scrolling="no" >
+			<frame src="right.html" name="right" noresize scrolling="auto">
+		</frameset>
+		
+		<frame src="bottom.html" scrolling="no" noresize>
+		
+	</frameset>
+<noframes>
+<body>
+</body>
+</noframes>
+</html>
