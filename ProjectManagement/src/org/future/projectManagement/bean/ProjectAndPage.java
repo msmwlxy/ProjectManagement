@@ -33,16 +33,9 @@ public class ProjectAndPage<T> {
 	/*项目组成员id**/
 	private String[] projectMemberIds;
 	/*指导老师id**/
-	private String[] instructorIds;
+	private String[] instructors;
 	
-	/*以下六个字段用于申报项目时使用**/
-	private String student1;
-	private String student2;
-	private String student3;
-	private String student4;
 	
-	private String instructor1;
-	private String instructor2;
 	
 	
 	/*当前页**/
@@ -58,139 +51,202 @@ public class ProjectAndPage<T> {
 	/*结果集**/
 	private QueryResult<T> qr;
 	
-	/*无参构造方法**/
 	public ProjectAndPage(){}
 	
+	
+
 	public Integer getProjectId() {
 		return projectId;
 	}
+
+
 
 	public void setProjectId(Integer projectId) {
 		this.projectId = projectId;
 	}
 
-	public String[] getInstructorIds() {
-		return instructorIds;
+
+
+	public String[] getInstructors() {
+		return instructors;
 	}
 
-	public void setInstructorIds(String[] instructorIds) {
-		this.instructorIds = instructorIds;
+
+
+	public void setInstructors(String[] instructors) {
+		this.instructors = instructors;
 	}
+
+
 
 	public String getNumber() {
 		return number;
 	}
 
+
+
 	public void setNumber(String number) {
 		this.number = number;
 	}
+
+
 
 	public String getName() {
 		return name;
 	}
 
+
+
 	public void setName(String name) {
 		this.name = name;
 	}
+
+
 
 	public Date getStartTime() {
 		return startTime;
 	}
 
+
+
 	public void setStartTime(Date startTime) {
 		this.startTime = startTime;
 	}
+
+
 
 	public Date getEndTime() {
 		return endTime;
 	}
 
+
+
 	public void setEndTime(Date endTime) {
 		this.endTime = endTime;
 	}
+
+
 
 	public Float getFunds() {
 		return funds;
 	}
 
+
+
 	public void setFunds(Float funds) {
 		this.funds = funds;
 	}
+
+
 
 	public String getPrincipalId() {
 		return principalId;
 	}
 
+
+
 	public void setPrincipalId(String principalId) {
 		this.principalId = principalId;
 	}
+
+
 
 	public String[] getProjectMemberIds() {
 		return projectMemberIds;
 	}
 
+
+
 	public void setProjectMemberIds(String[] projectMemberIds) {
 		this.projectMemberIds = projectMemberIds;
 	}
+
+
 
 	public Integer getCollegeId() {
 		return collegeId;
 	}
 
+
+
 	public void setCollegeId(Integer collegeId) {
 		this.collegeId = collegeId;
 	}
+
+
 
 	public Integer getProjectStatuId() {
 		return projectStatuId;
 	}
 
+
+
 	public void setProjectStatuId(Integer projectStatuId) {
 		this.projectStatuId = projectStatuId;
 	}
+
+
 
 	public String getDescription() {
 		return description;
 	}
 
+
+
 	public void setDescription(String description) {
 		this.description = description;
 	}
+
+
 
 	public Integer getProjectTypeId() {
 		return projectTypeId;
 	}
 
+
+
 	public void setProjectTypeId(Integer projectTypeId) {
 		this.projectTypeId = projectTypeId;
 	}
+
+
 
 	public void setCurrentPage(Integer currentPage) {
 		this.currentPage = currentPage;
 	}
 
+
+
 	public void setStartPageIndex(Integer startPageIndex) {
 		this.startPageIndex = startPageIndex;
 	}
+
+
 
 	public void setEndPageIndex(Integer endPageIndex) {
 		this.endPageIndex = endPageIndex;
 	}
 
+
+
 	public void setStartResultIndex(Integer startResultIndex) {
 		this.startResultIndex = startResultIndex;
 	}
+
+
 
 	public void setPageMaxResult(Integer pageMaxResult) {
 		this.pageMaxResult = pageMaxResult;
 	}
 
+
+
 	public void setNumber(QueryResult<T> qr){
 		
-		if(qr.getTotalResults()%pageMaxResult==0){
-			this.endPageIndex = qr.getTotalResults()/pageMaxResult;
+		if(qr.getTotalResult()%pageMaxResult==0){
+			this.endPageIndex = qr.getTotalResult()/pageMaxResult;
 		}else{
-			this.endPageIndex = (qr.getTotalResults()/pageMaxResult + 1);
+			this.endPageIndex = (qr.getTotalResult()/pageMaxResult + 1);
 		}
 		this.qr = qr;
 	}
@@ -200,26 +256,26 @@ public class ProjectAndPage<T> {
 	public void setCurrentPage(int currentPage) {
 		this.currentPage = currentPage;
 	}
-	public Integer getStartPageIndex() {
+	public long getStartPageIndex() {
 		return startPageIndex;
 	}
 	public void setStartPageIndex(int startPageIndex) {
 		this.startPageIndex = startPageIndex;
 	}
-	public Integer getEndPageIndex() {
+	public long getEndPageIndex() {
 		return endPageIndex;
 	}
 	public void setEndPageIndex(int endPageIndex) {
 		this.endPageIndex = endPageIndex;
 	}
-	public Integer getStartResultIndex() {
+	public long getStartResultIndex() {
 		return startResultIndex;
 	}
 	public void setStartResultIndex() {
 		this.startResultIndex = (this.currentPage-1)*this.pageMaxResult;
 	
 	}
-	public Integer getPageMaxResult() {
+	public long getPageMaxResult() {
 		return pageMaxResult;
 	}
 	public void setPageMaxResult(int pageMaxResult) {
@@ -230,54 +286,6 @@ public class ProjectAndPage<T> {
 	}
 	public void setQr(QueryResult<T> qr) {
 		this.qr = qr;
-	}
-
-	public String getStudent1() {
-		return student1;
-	}
-
-	public void setStudent1(String student1) {
-		this.student1 = student1;
-	}
-
-	public String getStudent2() {
-		return student2;
-	}
-
-	public void setStudent2(String student2) {
-		this.student2 = student2;
-	}
-
-	public String getStudent3() {
-		return student3;
-	}
-
-	public void setStudent3(String student3) {
-		this.student3 = student3;
-	}
-
-	public String getStudent4() {
-		return student4;
-	}
-
-	public void setStudent4(String student4) {
-		this.student4 = student4;
-	}
-
-	public String getInstructor1() {
-		return instructor1;
-	}
-
-	public void setInstructor1(String instructor1) {
-		this.instructor1 = instructor1;
-	}
-
-	public String getInstructor2() {
-		return instructor2;
-	}
-
-	public void setInstructor2(String instructor2) {
-		this.instructor2 = instructor2;
 	}
 		
 }

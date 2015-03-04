@@ -1,7 +1,0 @@
-package org.future.projectManagement.dao;
-
-import org.future.projectManagement.bean.Project;
-
-public interface seeAndDownloadDao {
-	public Project getProjectById(int projectId);
-}

@@ -1,7 +1,0 @@
-package org.future.projectManagement.dao;
-
-
-
-public interface seeAndDownloadDao extends BaseDao{
-
-}

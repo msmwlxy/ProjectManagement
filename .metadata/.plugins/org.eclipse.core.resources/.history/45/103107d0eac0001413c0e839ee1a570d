@@ -1,9 +1,0 @@
-#return{
-	border:solid 1pt ; 
-	background-color:388BFF;
-	position: absolute;
-	right: 5%;
-	top: 50%;
-	border-width:10px;
-	color:388BFF
-}

@@ -1,0 +1,26 @@
+package org.future.projectManagement.bean;
+/*
+ * 学院
+ * history
+ * 2015/1/25创建文件
+ * 
+ */
+public class College {
+	/*id**/
+	private  Integer integer;
+	/*院系名称**/
+	private String name;
+	public Integer getInteger() {
+		return integer;
+	}
+	public void setInteger(Integer integer) {
+		this.integer = integer;
+	}
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	
+}

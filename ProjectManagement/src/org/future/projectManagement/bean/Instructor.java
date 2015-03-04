@@ -29,15 +29,13 @@ public class Instructor implements Serializable{
 	private String name;
 	/*职务/职位**/
 	private Position position;
-	/*密码**/
-	private String password;
 	/*学院/单位**/
 	private College college;
 	/*电话**/
-	private String telphone;
+	private String phone;
 	/*邮箱**/
 	private String email;
-	/*指导的项目**/
+	/*密码**/
 	private Set<Project> guideProject = new HashSet<Project>();
 	@Id
 	public String getJobNumber() {
@@ -52,14 +50,6 @@ public class Instructor implements Serializable{
 	}
 	public void setName(String name) {
 		this.name = name;
-	}
-	
-	@Column(length=35)
-	public String getPassword() {
-		return password;
-	}
-	public void setPassword(String password) {
-		this.password = password;
 	}
 	@ManyToOne
 	@JoinColumn(name="pId")
@@ -79,10 +69,10 @@ public class Instructor implements Serializable{
 	}
 	@Column(length=25,nullable=false)
 	public String getPhone() {
-		return telphone;
+		return phone;
 	}
-	public void setPhone(String telphone) {
-		this.telphone = telphone;
+	public void setPhone(String phone) {
+		this.phone = phone;
 	}
 	@Column(length=35,nullable=false)
 	public String getEmail() {
@@ -98,30 +88,5 @@ public class Instructor implements Serializable{
 	public void setGuideProject(Set<Project> guideProject) {
 		this.guideProject = guideProject;
 	}
-	@Override
-	public int hashCode() {
-		final int prime = 31;
-		int result = 1;
-		result = prime * result
-				+ ((jobNumber == null) ? 0 : jobNumber.hashCode());
-		return result;
-	}
-	@Override
-	public boolean equals(Object obj) {
-		if (this == obj)
-			return true;
-		if (obj == null)
-			return false;
-		if (getClass() != obj.getClass())
-			return false;
-		Instructor other = (Instructor) obj;
-		if (jobNumber == null) {
-			if (other.jobNumber != null)
-				return false;
-		} else if (!jobNumber.equals(other.jobNumber))
-			return false;
-		return true;
-	}
-	
 	
 }

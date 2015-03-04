@@ -1,0 +1,32 @@
+package org.future.projectManagement.dao;
+
+import java.util.LinkedHashMap;
+import java.util.List;
+
+import javax.annotation.Resource;
+
+import org.future.projectManagement.bean.Student;
+import org.future.projectManagement.utils.QueryResult;
+import org.hibernate.SessionFactory;
+
+public interface StudentDao{
+	
+	public abstract SessionFactory getSessionFactory();
+	@Resource
+	public abstract void setSessionFactory(SessionFactory sessionFactory);
+	
+	public void add(Student student);
+	public <T> T find(Class<T> object,int id);
+	public void Update(Student student);
+	public void delete(Student student);
+	public void delete(List<Student> list);
+	
+	public <T> QueryResult<T> getQueryResult(Class<Student> entityClass,long startIndex,long endIndex,Object[] parameters,String where,LinkedHashMap<String,String> orderBy);
+	public <T> QueryResult<T> getQueryResult(Class<Student> entityClass,long startIndex,long endIndex,Object[] parameters,String where);
+	public <T> QueryResult<T> getQueryResult(Class<Student> entityClass,long startIndex,long endIndex,LinkedHashMap<String,String> orderBy);
+	public <T> QueryResult<T> getQueryResult(Class<Student> entityClass,Object[] parameters,String where,LinkedHashMap<String,String> orderBy);
+	public <T> QueryResult<T> getQueryResult(Class<Student> entityClass,long startIndex,long endIndex);
+	public <T> QueryResult<T> getQueryResult(Class<Student> entityClass);
+	public <T> QueryResult<T> getQueryResult(Class<Student> entityClass,Object[] parameters, String where);
+	
+}

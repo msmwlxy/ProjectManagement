@@ -16,7 +16,6 @@ import javax.persistence.TemporalType;
  * 项目日志
  * history
  * 2015/1/25 创建文件
- * 2015/2/9 增加projectStatu属性
  */
 @Entity
 public class ProjectLog implements Serializable{
@@ -36,9 +35,6 @@ public class ProjectLog implements Serializable{
 	private String opinion;
 	/*项目**/
 	private Project project;
-	/*项目状态**/
-	private ProjectStatu projectStatu;
-	
 	@Id
 	@GeneratedValue
 	public Integer getProjectLogId() {
@@ -83,14 +79,6 @@ public class ProjectLog implements Serializable{
 	}
 	public void setOpinion(String opinion) {
 		this.opinion = opinion;
-	}
-	@ManyToOne
-	@JoinColumn(name="psId")
-	public ProjectStatu getProjectStatu() {
-		return projectStatu;
-	}
-	public void setProjectStatu(ProjectStatu projectStatu) {
-		this.projectStatu = projectStatu;
 	}
 	
 	

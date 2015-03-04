@@ -1,7 +1,0 @@
-package org.future.projectManagement.service.imp;
-
-import org.future.projectManagement.service.CollegeService;
-
-public class CollegeServiceImp implements CollegeService{
-	
-}

@@ -1,0 +1,8 @@
+package org.future.projectManagement.bean;
+/*
+ * history
+ * 2015/1/25 创建文件
+ */
+public class Instructor {
+
+}

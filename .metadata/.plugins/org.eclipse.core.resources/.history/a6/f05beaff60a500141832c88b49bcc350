@@ -1,0 +1,153 @@
+package org.future.projectManagement.bean;
+
+import java.io.Serializable;
+import java.util.Date;
+import java.util.HashSet;
+import java.util.Set;
+
+import javax.persistence.CascadeType;
+import javax.persistence.Entity;
+import javax.persistence.JoinColumn;
+import javax.persistence.OneToOne;
+
+/*
+ * 项目
+ * history
+ * 2015/1/25 创建文件
+ *
+ */
+@Entity
+public class Project implements Serializable{
+	/*id**/
+	private Integer projectId;
+	/*编号**/
+	private String number;
+	/*名称**/
+	private String name;
+	/*开始时间**/
+	private Date startTime;
+	/*结束时间**/
+	private Date endTime;
+	/*经费**/
+	private Float funds;
+	/*负责人**/
+	private Student principal;
+	/*项目组成员**/
+	private Set<Student> projectMembers = new HashSet<Student>();
+	/*指导老师**/
+	private Set<Instructor> instructors = new HashSet<Instructor>();
+	/*院系**/
+	private College college;
+	/*状态**/
+	private ProjectStatu projectStatu;
+	/*项目日志**/
+	private Set<ProjectLog> projectLog;
+	/*简介**/
+	private String description;
+	/*项目类型**/
+	private ProjectType projectType;
+	/*是否优秀**/
+	private Boolean outstanding;
+	/*项目资料**/
+	@OneToOne(cascade=CascadeType.ALL)
+	@JoinColumn(name="pdId",unique=true)
+	private ProjectData projectData;
+	public Integer getProjectId() {
+		return projectId;
+	}
+	public void setProjectId(Integer projectId) {
+		this.projectId = projectId;
+	}
+	public String getNumber() {
+		return number;
+	}
+	public void setNumber(String number) {
+		this.number = number;
+	}
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public Date getStartTime() {
+		return startTime;
+	}
+	public void setStartTime(Date startTime) {
+		this.startTime = startTime;
+	}
+	public Date getEndTime() {
+		return endTime;
+	}
+	public void setEndTime(Date endTime) {
+		this.endTime = endTime;
+	}
+	public Float getFunds() {
+		return funds;
+	}
+	public void setFunds(Float funds) {
+		this.funds = funds;
+	}
+	public Student getPrincipal() {
+		return principal;
+	}
+	public void setPrincipal(Student principal) {
+		this.principal = principal;
+	}
+	public Set<Student> getProjectMembers() {
+		return projectMembers;
+	}
+	public void setProjectMembers(Set<Student> projectMembers) {
+		this.projectMembers = projectMembers;
+	}
+	public Set<Instructor> getInstructors() {
+		return instructors;
+	}
+	public void setInstructors(Set<Instructor> instructors) {
+		this.instructors = instructors;
+	}
+	public College getCollege() {
+		return college;
+	}
+	public void setCollege(College college) {
+		this.college = college;
+	}
+	public ProjectStatu getProjectStatu() {
+		return projectStatu;
+	}
+	public void setProjectStatu(ProjectStatu projectStatu) {
+		this.projectStatu = projectStatu;
+	}
+	public Set<ProjectLog> getProjectLog() {
+		return projectLog;
+	}
+	public void setProjectLog(Set<ProjectLog> projectLog) {
+		this.projectLog = projectLog;
+	}
+	public String getDescription() {
+		return description;
+	}
+	public void setDescription(String description) {
+		this.description = description;
+	}
+	public ProjectType getProjectType() {
+		return projectType;
+	}
+	public void setProjectType(ProjectType projectType) {
+		this.projectType = projectType;
+	}
+	public Boolean getOutstanding() {
+		return outstanding;
+	}
+	public void setOutstanding(Boolean outstanding) {
+		this.outstanding = outstanding;
+	}
+	public ProjectData getProjectData() {
+		return projectData;
+	}
+	public void setProjectData(ProjectData projectData) {
+		this.projectData = projectData;
+	}
+	
+	
+}

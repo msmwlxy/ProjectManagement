@@ -59,13 +59,9 @@ public class Project implements Serializable{
 	/*项目类型**/
 	private ProjectType projectType;
 	/*是否优秀**/
-	private Boolean outstanding = false;
+	private Boolean outstanding;
 	/*项目资料**/
 	private ProjectData projectData;
-	/*无参构造方法**/
-	public Project() {
-	
-	}
 	/*构造方法**/
 	public Project(String name, Date startTime, Date endTime, Float funds,
 			Student principal, Set<Student> projectMembers,
@@ -138,8 +134,7 @@ public class Project implements Serializable{
 	public void setPrincipal(Student principal) {
 		this.principal = principal;
 	}
-	
-	@ManyToMany(cascade = CascadeType.PERSIST, fetch=FetchType.EAGER)
+	@ManyToMany(cascade = CascadeType.PERSIST, fetch = FetchType.LAZY)
 	@JoinTable(name = "Project_Student", 
 	joinColumns = { @JoinColumn(name = "pId", referencedColumnName = "projectId") }, 
 	inverseJoinColumns = { @JoinColumn(name = "sId", referencedColumnName = "studentNo") })
@@ -149,8 +144,7 @@ public class Project implements Serializable{
 	public void setProjectMembers(Set<Student> projectMembers) {
 		this.projectMembers = projectMembers;
 	}
-	
-	@ManyToMany(cascade = CascadeType.PERSIST, fetch=FetchType.EAGER)
+	@ManyToMany(cascade = CascadeType.PERSIST, fetch = FetchType.LAZY)
 	@JoinTable(name = "Project_Instructor", 
 	joinColumns = { @JoinColumn(name = "pId", referencedColumnName = "projectId") }, 
 	inverseJoinColumns = { @JoinColumn(name = "iId", referencedColumnName = "jobNumber") })
@@ -176,7 +170,7 @@ public class Project implements Serializable{
 	public void setProjectStatu(ProjectStatu projectStatu) {
 		this.projectStatu = projectStatu;
 	}
-	@OneToMany(mappedBy="project",cascade=CascadeType.ALL,fetch=FetchType.EAGER)
+	@OneToMany(mappedBy="project",cascade=CascadeType.ALL)
 	public Set<ProjectLog> getProjectLogs() {
 		return projectLogs;
 	}

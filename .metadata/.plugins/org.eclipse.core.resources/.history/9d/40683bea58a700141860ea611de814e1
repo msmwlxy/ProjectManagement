@@ -1,0 +1,22 @@
+package org.future.projectManagement.service.imp;
+
+import javax.annotation.Resource;
+
+import org.future.projectManagement.dao.ProjectDao;
+import org.future.projectManagement.service.ProjectService;
+import org.springframework.stereotype.Component;
+@Component
+public class ProjectServiceImp implements ProjectService{
+	
+	private ProjectDao projectDao;
+	
+	public ProjectDao getProjectDao() {
+		return projectDao;
+	}
+	@Resource
+	public void setProjectDao(ProjectDao projectDao) {
+		this.projectDao = projectDao;
+	}
+	
+	
+}
