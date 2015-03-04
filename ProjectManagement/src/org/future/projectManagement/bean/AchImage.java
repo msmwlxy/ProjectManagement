@@ -8,6 +8,7 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
+import javax.persistence.Transient;
 
 /*
  * 成果图片
@@ -51,5 +52,8 @@ public class AchImage implements Serializable{
 	public void setProjectData(ProjectData projectData) {
 		this.projectData = projectData;
 	}
-	
+	@Transient
+	public String getAchImagePath(){
+		return  "file/project" + this.getProjectData().getProject().getProjectId() +"/achImage/" + this.getImageName(); 
+	}
 }

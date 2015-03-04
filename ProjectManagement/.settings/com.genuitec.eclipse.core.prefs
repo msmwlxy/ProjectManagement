@@ -1,0 +1,4 @@
+#Sat Feb 28 08:49:44 CST 2015
+eclipse.preferences.version=1
+validator.Checked=WebRoot/richTextarea,WebRoot/js,WebRoot/WEB-INF
+validator.Unchecked=

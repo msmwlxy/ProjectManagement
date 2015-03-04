@@ -84,11 +84,14 @@ public class BaseDaoImp implements BaseDao{
 					query.setFirstResult(startIndex).setMaxResults(MaxResults);
 				}
 				this.setParameters(query, parameters);
-				qr.setResult(query.list());
+				qr.setResults(query.list());
 				
 				query = session.createQuery("select count(o) from "+getEntityName(entityClass)+" o "+(where==null||"".equals(where.trim())?"":"where "+where+""));
 				this.setParameters(query, parameters);
-				qr.setTotalResult((Integer)query.uniqueResult());
+				
+				String total = query.uniqueResult().toString();
+				
+				qr.setTotalResults(new Integer(total));
 				
 				return qr;
 			}

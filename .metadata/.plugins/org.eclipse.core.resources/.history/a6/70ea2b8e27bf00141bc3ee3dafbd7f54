@@ -1,0 +1,88 @@
+package org.future.projectManagement.action;
+
+import com.opensymphony.xwork2.ActionSupport;
+
+import java.io.IOException;
+
+
+import javax.servlet.RequestDispatcher;
+import javax.servlet.ServletException;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import org.apache.struts2.ServletActionContext;
+import org.future.projectManagement.utils.InsFile;
+import org.future.projectManagement.utils.Jacob2Html;
+import org.springframework.stereotype.Component;
+
+import java.io.File;
+@Component
+public class ReadFileAction extends ActionSupport {
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+	
+		 private String url;
+		 
+		
+		public String getUrl() {
+			return url;
+		}
+
+
+		public void setUrl(String url) {
+			this.url = url;
+		}
+
+
+		public void word2html(){
+			  
+			 /* String tomcat= ServletActionContext.getRequest().getSession().getServletContext().getRealPath("/")+"upload//";//在工程目录下建个upload文件夹
+*/			  
+			  
+			  System.out.println(tomcat);
+			  System.out.println(url);
+			  
+			  String ext=InsFile.getExt(url);
+			  
+			  String htmlFile =InsFile.delExt(url.substring(url.lastIndexOf("/")+1))+".html";;
+			  
+			  File file=new File("e:/ProjectManagement/upload/"+htmlFile);
+			  boolean exist=file.exists();
+			  
+			  if(!exist){
+			  
+				   if(ext.equalsIgnoreCase("doc")){
+					   
+					   Jacob2Html.wordToHtml("e:/ProjectManagement/"+url,"e:/ProjectManagement/upload/"+htmlFile); 
+					   
+				   }else if(ext.equalsIgnoreCase("ppt")){
+					   
+					    Jacob2Html.pptToHtml(tomcat+url,tomcat+InsFile.delExt(url)+".html"); 
+					    System.out.println(tomcat+InsFile.delExt(url)+".html");
+					    
+				   }else if(ext.equalsIgnoreCase("xls")){
+					   
+					   Jacob2Html.excelToHtml(tomcat+url,tomcat+InsFile.delExt(url)+".html"); 
+					   
+				   }
+		   
+				   	try {
+						ServletActionContext.getResponse().sendRedirect(ServletActionContext.getRequest().getContextPath()+"/upload/aa.html");
+					} catch (IOException e) {
+						
+						e.printStackTrace();
+					}   
+		   	
+		   	
+		  }
+		  
+		  return;
+	 }
+
+	
+
+}

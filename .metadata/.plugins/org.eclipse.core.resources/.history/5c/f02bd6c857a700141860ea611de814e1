@@ -1,7 +1,0 @@
-package org.future.projectManagement.service.imp;
-
-import org.future.projectManagement.service.ProjectService;
-
-public class ProjectServiceImp implements ProjectService{
-	
-}
