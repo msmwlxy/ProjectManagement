@@ -3,7 +3,7 @@
   type="WEB"
   name="ProjectManagement"
   id="myeclipse.1422146311192"
-  context-root="/ProjectManagent"
+  context-root="/ProjectManagement"
   j2ee-spec="6.0"
   archive="ProjectManagement.war">
   <attributes>

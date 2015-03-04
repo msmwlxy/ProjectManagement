@@ -1,0 +1,15 @@
+package org.future.projectManagement.action;
+
+import com.opensymphony.xwork2.ActionSupport;
+
+public class seeAndDown extends ActionSupport {
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+	public String seeUI(){
+		
+		return "seeUI";
+	}
+}

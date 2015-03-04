@@ -11,6 +11,7 @@ import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
+import javax.persistence.Transient;
 
 /*
  * 论文
@@ -31,6 +32,8 @@ public class Thesis implements Serializable{
 	private Date dateline;
 	/*项目资料**/
 	private ProjectData projectData;
+	/*论文文件名**/
+	private String fileName;
 	@Id
 	@GeneratedValue
 	public Integer getThesisId() {
@@ -62,5 +65,14 @@ public class Thesis implements Serializable{
 	public void setProjectData(ProjectData projectData) {
 		this.projectData = projectData;
 	}
-	
+	public String getFileName() {
+		return fileName;
+	}
+	public void setFileName(String fileName) {
+		this.fileName = fileName;
+	}
+	@Transient
+	public String getThesisPath(){
+		return  "file/project" + this.getProjectData().getProject().getProjectId() +"/Thesis/" + this.getFileName(); 
+	}
 }

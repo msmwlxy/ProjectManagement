@@ -1,0 +1,106 @@
+package org.future.projectManagement.utils;
+import com.jacob.activeX.ActiveXComponent;
+import com.jacob.com.Dispatch;
+import com.jacob.com.Variant;
+public class Jacob2Html {
+	// private static final Log log = LogFactory.getLog(Jacob2Html.class); 
+	 /**  
+	     * PowerPoint转成HTML  
+	     * @param pptPath PowerPoint文件全路径  
+	     * @param htmlfile 转换后HTML存放路径  
+	    */  
+	    public static void pptToHtml(String pptPath, String htmlPath)   
+	    {   
+	     ActiveXComponent offCom = new ActiveXComponent("PowerPoint.Application"); 
+	        try  
+	        {   
+	         offCom.setProperty("Visible", new Variant(true));   
+	            Dispatch excels = offCom.getProperty("Presentations").toDispatch();   
+	            Dispatch excel = Dispatch.invoke(excels, 
+	             "Open",Dispatch.Method, new Object[] { pptPath, new Variant(false),  new Variant(false) }, new int[1]).toDispatch();   
+	            Dispatch.invoke(excel, "SaveAs", Dispatch.Method, new Object[] {   
+	              htmlPath, new Variant(12) }, new int[1]);   
+	            Variant f = new Variant(false);   
+	            Dispatch.call(excel, "Close");   
+	        }   
+	        catch (Exception e)   
+	        {   
+	            e.printStackTrace();   
+	        }   
+	        finally  
+	        {   
+	         offCom.invoke("Quit", new Variant[] {});   
+	        }   
+	    }
+	    
+	   
+	 /**  
+	     * WORD转成HTML  
+	     * @param wordPath WORD文件全路径  
+	     * @param htmlPath 生成的HTML存放路径  
+	     */  
+	    public static void wordToHtml(String wordPath, String htmlPath)   
+	    { 
+	     ActiveXComponent offCom = new ActiveXComponent("Word.Application"); 
+	        try  
+	        {   
+	         offCom.setProperty("Visible", new Variant(false));   
+	            Dispatch wordDis = offCom.getProperty("Documents").toDispatch();   
+	           
+	            Dispatch doc = Dispatch.invoke(wordDis,   
+	                    "Open", Dispatch.Method,  new Object[] { wordPath, new Variant(false),   
+	                            new Variant(true) }, new int[1]).toDispatch();   
+	          
+	            Dispatch.invoke(doc, "SaveAs", Dispatch.Method, new Object[] {   
+	              htmlPath, new Variant(8) }, new int[1]);   
+	            Variant f = new Variant(false);   
+	            Dispatch.call(doc, "Close", f);   
+	        }   
+	        catch (Exception e)   
+	        {   
+	            e.printStackTrace();   
+	        }   
+	        finally  
+	        {   
+	         offCom.invoke("Quit", new Variant[] {});   
+	        }   
+	    }   
+	  
+	    /**  
+	     * EXCEL转成HTML  
+	     * @param xlsfile EXCEL文件全路径  
+	     * @param htmlfile 转换后HTML存放路径  
+	     */  
+	    public static void excelToHtml(String excelPath, String htmlPath)   
+	    {   
+	        ActiveXComponent offCom = new ActiveXComponent("Excel.Application"); 
+	        try  
+	        {   
+	         offCom.setProperty("Visible", new Variant(false));   
+	            Dispatch excels = offCom.getProperty("Workbooks").toDispatch();   
+	            Dispatch excel = Dispatch.invoke(excels, 
+	             "Open",Dispatch.Method, new Object[] { excelPath, new Variant(false),  new Variant(true) }, new int[1]).toDispatch();   
+	            Dispatch.invoke(excel, "SaveAs", Dispatch.Method, new Object[] {   
+	              htmlPath, new Variant(44) }, new int[1]);   
+	            Variant f = new Variant(false);   
+	            Dispatch.call(excel, "Close", f);   
+	        }   
+	        catch (Exception e)   
+	        {   
+	            e.printStackTrace();   
+	        }   
+	        finally  
+	        {   
+	         offCom.invoke("Quit", new Variant[] {});   
+	        }   
+	    }    
+	    
+	    
+	    public static void main(String[] args)
+	 {
+	     //excelToHtml("c:/ftc/kk.xls","c:/ftc/kk.html");
+	     //wordToHtml("c:/ftc/gdf.doc","c:/ftc/gdf.html");
+	    	excelToHtml("f:/word&excel/徐康康.xls", "d:/ch.html");
+	 }
+	
+}

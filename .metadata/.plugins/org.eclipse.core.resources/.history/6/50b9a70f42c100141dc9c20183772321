@@ -1,0 +1,14 @@
+package org.future.projectManagement.dao.imp;
+
+import org.future.projectManagement.bean.Project;
+import org.future.projectManagement.dao.seeAndDownloadDao;
+
+public class seeAndDownloadDaoImp implements seeAndDownloadDao
+
+	@Override
+	public Project getProjectById(int projectId) {
+		// TODO Auto-generated method stub
+		return null;
+	} extends BaseDao{
+
+}
