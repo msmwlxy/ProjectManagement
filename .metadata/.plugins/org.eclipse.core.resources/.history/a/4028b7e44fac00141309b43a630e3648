@@ -1,8 +1,0 @@
-package org.future.projectManagement.service.imp;
-
-import org.future.projectManagement.service.CollegeService;
-import org.springframework.stereotype.Component;
-@Component
-public class CollegeServiceImp implements CollegeService{
-	
-}

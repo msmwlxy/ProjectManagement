@@ -1,8 +1,0 @@
-package org.future.projectManagement.service.imp;
-
-import org.future.projectManagement.service.ProjectLogService;
-import org.springframework.stereotype.Component;
-@Component
-public class ProjectLogServiceImp implements ProjectLogService{
-
-}
