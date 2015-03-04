@@ -1,0 +1,11 @@
+package org.future.projectManagement.dao.imp;
+
+import javax.annotation.Resource;
+
+import org.future.projectManagement.dao.ProjectLogDao;
+@Resource
+public class ProjectLogDaoImp extends BaseDaoImp implements ProjectLogDao{
+	private ProjectLogDao projectLogDao;
+	
+	
+}

@@ -1,0 +1,16 @@
+package org.future.projectManagement.service.imp;
+
+import org.future.projectManagement.bean.Thesis;
+import org.future.projectManagement.service.ThesisService;
+import org.springframework.stereotype.Component;
+@Component
+public class ThesisServiceImp implements ThesisService{
+	
+	
+	@Override
+	public void add(Thesis thesis) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

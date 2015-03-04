@@ -1,0 +1,36 @@
+<%@ page language="java" import="java.util.*" pageEncoding="UTF-8"%>
+<%@ include file="/WEB-INF/jsp/share/taglib.jsp" %>
+<%@ include file="/WEB-INF/jsp/share/basepath.jsp"  %> 
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<link href="css/uploadPaper.css" type="text/css" rel="stylesheet" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>上传结项报告页面</title>
+</head>
+<body>	
+	  <div class="right">
+        <div class="right_top">
+          <div class="xiangji">
+           <img src="images/shangchuan.gif" width="25" height="19">
+          </div>
+         <div class="wenzi">
+           上传结项报告
+         </div> 
+        </div>
+        <div class="xiantiao"><img src="images/xian.png" width="846" height="4">
+        </div>
+        <div class="sanjiao">
+        <form  method="post" action="student/uploadMid" onsubmit="check();return false;">
+       	<span style="margin-left:300px;">上传报告:</span>
+        <input type="file" name="upload" id="fileField" style="margin:63px auto auto 400px;"/>
+       
+           <p style="margin:-30px -40px;"><input type="submit" style="width:100px;margin:60px 430px;" value="确定"/>
+           </p>
+        </form>
+        </div>
+      </div>	
+
+</body>
+</html>

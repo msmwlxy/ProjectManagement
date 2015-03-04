@@ -1,0 +1,5 @@
+package org.future.projectManagement.dao.imp;
+
+public class ThesisDaoImp extends BaseDaoImp implements ThesisDao{
+
+}

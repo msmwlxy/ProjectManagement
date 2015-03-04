@@ -1,0 +1,47 @@
+<%@ page language="java" import="java.util.*" pageEncoding="UTF-8"%>
+<%@ include file="/WEB-INF/jsp/share/taglib.jsp" %>
+<%@ include file="/WEB-INF/jsp/share/basepath.jsp"  %> 
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<link href="css/haveToDeclare.css" type="text/css" rel="stylesheet" />
+<link href="css/SpryAccordion.css" rel="stylesheet" type="text/css" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Have_to_declare</title>
+	<!-- <script src="js/SpryAccordion.js" type="text/javascript"></script> -->
+</head>
+<body>	
+	  <div class="right">
+	  
+	  <table style="text-align:center;" width="800" border="0"  >
+           <!-- <thead style="font-size:18px; color:#000; font-weight:bolder;margin-left:-24px;">-->
+                <th colspan="4" style="text-align:left;"><div><img src="images/xiangji.png">
+                	查看已申报的项目</div>
+                    <span><img src="images/xian.png" width="846" height="4"></span>
+                </th>
+           <!-- </thead>-->
+            <tr class="text_font" style="line-height:30px;">
+                <td>项目名称</td>
+                <td>项目状态</td>
+                <td>项目日志</td>
+                <td>相关操作</td>
+            </tr>
+            <!-- 该处相邻的两个tr标签是一体的 -->
+            <tr><td colspan="4"><div class="xuxian"></div></td></tr>
+            <core:forEach items="${qr.results}" var="project" >
+         	  	<tr class="text_font" style="color:#000; font-weight:100;" >
+                <td>${project.name }</td>
+                <td>${project.projectStatu.name}</td>
+                <td><a href="student/">查看项目审核日志</a></td>
+                <td><a  href="student/projectDetailedInfUI?projectId=${project.projectId }">查看</a>&nbsp;&nbsp;
+                <a href="student/updateProjectUI?projectId=${project.projectId }">修改</a></td>
+                
+            </tr>    
+            </core:forEach>
+                 
+        </table>
+      </div>	
+</body>
+</html>
+

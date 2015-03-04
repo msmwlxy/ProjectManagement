@@ -1,0 +1,36 @@
+package org.future.projectManagement.service.imp;
+
+import java.util.LinkedHashMap;
+import java.util.List;
+
+import javax.annotation.Resource;
+
+import org.future.projectManagement.bean.ProjectLog;
+import org.future.projectManagement.dao.ProjectLogDao;
+import org.future.projectManagement.service.ProjectLogService;
+import org.future.projectManagement.utils.QueryResult;
+import org.springframework.stereotype.Component;
+@Component
+public class ProjectLogServiceImp implements ProjectLogService{
+
+	private ProjectLogDao projectLogDao;
+
+	public ProjectLogDao getProjectLogDao() {
+		return projectLogDao;
+	}
+	@Resource
+	public void setProjectLogDao(ProjectLogDao projectLogDao) {
+		this.projectLogDao = projectLogDao;
+	}
+
+}
+	//根据开始索引，最大日志数和查询条件来得到要查询的审核日志集合,并且对结果集进行排序
+	@Override
+	public QueryResult<ProjectLog> getQueryResult(
+			Class<ProjectLog> entityClass, int startIndex, int MaxResults,
+			List<Object> parameters, StringBuffer where,
+			LinkedHashMap<String, String> orderBy) {
+	
+		return	projectLogDao.getQueryResult(entityClass, startIndex, MaxResults, parameters, where, orderBy);
+	}
+}

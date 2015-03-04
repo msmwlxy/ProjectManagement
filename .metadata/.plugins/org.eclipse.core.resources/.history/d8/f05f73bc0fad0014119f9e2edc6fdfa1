@@ -1,0 +1,10 @@
+   function jiaoyan(URL,message,prompt){
+    		alert();
+    		return false;
+    	
+	}
+	
+	function callback(data){
+			
+				
+}

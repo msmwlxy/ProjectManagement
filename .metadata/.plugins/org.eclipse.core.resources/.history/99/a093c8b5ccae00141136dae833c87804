@@ -1,0 +1,7 @@
+package org.future.projectManagement.service.imp;
+
+import org.future.projectManagement.service.ProjectLogService;
+
+public class ProjectLogServiceImp implements ProjectLogService{
+
+}

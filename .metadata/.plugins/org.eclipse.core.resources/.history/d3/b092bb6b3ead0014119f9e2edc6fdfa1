@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+	"http://struts.apache.org/dtds/struts-2.3.dtd">
+
+<struts>
+
+    <constant name="struts.enable.DynamicMethodInvocation" value="true" />
+    <constant name="struts.devMode" value="true" />
+    <!--允许上传文件的最大容量  -->
+	<constant name="struts.multipart.maxSize" value="1000000000"></constant>
+	
+	<!--学生  -->
+    <package name="Student" namespace="/student" extends="struts-default">
+    
+    	<!--查看已申报的项目  -->
+    	<action name="lookReportProjectUI" class="studentAction" method="lookReportProject">
+    		<result name="lookReportProjectUI">
+    			/WEB-INF/jsp/student/project/lookReportProjectUI.jsp
+    		</result>
+    	</action>
+    	
+    	<!-- 查看申报项目的详细信息 -->
+    	<action name="projectDetailedInfUI" class="studentAction" method="projectDetailedInfUI">
+			<result name="projectDetailedInfUI">
+				/WEB-INF/jsp/student/project/2level/projectDetailedInfUI.jsp
+			</result>
+    	</action>
+    	
+    	<!-- 进入申报项目界面 -->
+    	<action name="reportProjectUI" class="studentAction" method="reportProjectUI">
+    		<result name="reportProjectUI">
+    		/WEB-INF/jsp/student/project/reportProjectUI.jsp
+    		</result>
+    	</action>
+
+    	<!-- 申报项目 -->
+    	<action name="reportProject" class="studentAction" method="reportProject">
+    		<result name="message">
+    			/WEB-INF/jsp/student/message/return.jsp
+    		</result>
+    	</action>
+    	<!-- 下载项目申报书 -->
+    	<action name="downloadReportBook" class="studentAction" method="downloadReportBook">
+    		<result type="stream">
+    			<!--下载的文件类型  -->
+    			<param name="contentType">application/msword</param>
+    			<!-- 被下载文件的入口 -->
+    			<param name="inputName">targetFile</param>
+    			<!--指定下载的文件名  -->
+    			<param name="contentDisposition">attachment;filename="${fileName}"</param>
+    			<!--指定下载文件时的缓冲大小  -->
+    			<param name="bufferSize">4096</param>
+    		</result>
+    	</action>
+    	<!--进入更新项目页面  -->
+    	<action name="updateProjectUI" class="studentAction" method="updateProjectUI">
+			  <result name="updateProjectUI">
+			  		/WEB-INF/jsp/student/project/2level/updateProjectUI.jsp
+			  </result>
+    	</action>
+    	
+    	<!-- 修改项目申报 -->
+    	<action name="updateProject" class="studentAction" method="updateProject">
+    		<result name="message">
+    			  	/WEB-INF/jsp/student/message/return.jsp
+    		</result>
+    	</action>
+    	<!-- 进入所有项目的上传中期检查报告页面-->
+    	<action name="uploadMidFUI" class="studentAction" method="uploadMidFUI">
+    		<result name="uploadMidFUI">
+    				/WEB-INF/jsp/student/project/uploadMidFUI.jsp
+    		</result>
+    	</action>
+    	<!-- 进入上传中期检查报告页面-->
+    	<action name="uploadMidUI" class="studentAction" method="uploadMidUI">
+    		<result name="uploadMidUI">
+    				/WEB-INF/jsp/student/project/2level/uploadMidUI.jsp
+    		</result>
+    	</action>
+    	<!-- 进入所有项目的上传结项报告页面-->
+    	<action name="uploadoverFUI" class="studentAction" method="uploadoverFUI">
+    		<result name="message">
+    				/WEB-INF/jsp/student/project/uploadoverUI.jsp
+    		</result>
+    	</action>
+    	<!-- 进入上传结项报告页面-->
+    	<action name="uploadoverUI" class="studentAction" method="uploadoverUI">
+    		<result name="message">
+    				/WEB-INF/jsp/student/project/2level/uploadoverUI.jsp
+    		</result>
+    	</action>
+    	<!-- 上传结项报告 -->
+    	<action name="uploadover" class="studentAction" method="uploadover">
+    		<result name="message">
+    				/WEB-INF/jsp/message/return.jsp
+    		</result>
+    	</action>
+    	
+    	<!-- 查看已申报的项目 -->
+    	<action name="lookReportProjectUI" class="studentAction" method="lookReportProjectUI">
+    		<result name="lookReportProjectUI">
+    				/WEB-INF/jsp/student/project/lookReportProjectUI.jsp
+    		</result>
+    	</action>
+    	<!-- 用于框架页面的生成 -->
+    	 <action name="*" class="centerAction" >
+    		<result>
+    			/WEB-INF/jsp/student/main/{1}.jsp
+    		</result>
+    	</action>
+    </package> 
+    
+</struts>

@@ -1,0 +1,21 @@
+<%@ page language="java" import="java.util.*" pageEncoding="UTF-8"%>
+<%@ include file="/WEB-INF/jsp/share/taglib.jsp" %>
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    
+    
+    <title>消息提示</title>
+     <meta http-equiv="Refresh" content="2;url=${pageContext.request.contextPath}/student/uploadThesisFUI">
+	<meta http-equiv="pragma" content="no-cache">
+	<meta http-equiv="cache-control" content="no-cache">
+	<meta http-equiv="expires" content="0">    
+	
+
+  </head>
+  
+  <body>
+ 上传中期检查报告成功，即将返回...... <br>
+  </body>
+</html>

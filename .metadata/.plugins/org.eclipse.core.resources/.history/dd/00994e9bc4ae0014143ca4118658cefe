@@ -1,0 +1,7 @@
+package org.future.projectManagement.dao.imp;
+
+import org.future.projectManagement.dao.ProjectLogDao;
+
+public class ProjectLogDaoImp extends BaseDaoImp implements ProjectLogDao{
+	
+}

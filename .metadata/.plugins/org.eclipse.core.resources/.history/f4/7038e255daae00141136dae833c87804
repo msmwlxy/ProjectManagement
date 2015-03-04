@@ -1,0 +1,31 @@
+#win{
+	width:300px;
+	height:250px;
+	position:absolute;
+	top:200px;
+	left:350px;
+	/* display:none; */
+	margin-left:-200px;
+	border:3px solid green;
+}
+
+#title{
+	background-color:#D8EDFC;
+	color:black;
+	font-zize:14px;
+	font-weight:bolder;
+	padding-left:0px;
+	border:1px solid red;
+
+}
+#close{
+	cursor:pointer;
+	padding-left:170px;
+	border:2px solid red;
+}
+#cont{
+	font-size:12px;
+	padding-top:10px;
+	border:3px solid blue;
+	
+}

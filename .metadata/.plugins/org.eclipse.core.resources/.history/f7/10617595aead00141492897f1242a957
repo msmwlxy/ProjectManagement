@@ -1,0 +1,90 @@
+package org.future.projectManagement.service.imp;
+
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.util.UUID;
+
+import javax.annotation.Resource;
+
+import org.future.projectManagement.bean.ProjectData;
+import org.future.projectManagement.dao.ProjectDataDao;
+import org.future.projectManagement.service.ProjectDataService;
+import org.springframework.stereotype.Component;
+@Component
+public class ProjectDataServiceImp implements ProjectDataService{
+	
+	private ProjectDataDao projectDataDao;
+
+	public ProjectDataDao getProjectDataDao() {
+		return projectDataDao;
+	}
+	@Resource
+	public void setProjectDataDao(ProjectDataDao projectDataDao) {
+		this.projectDataDao = projectDataDao;
+	}
+	/*通过项目id查找项目资料**/
+	@Override
+	public ProjectData getPdByPid(int projectId) {
+		
+		return projectDataDao.findByPid(projectId);
+	}
+	@Override
+	public void saveFile(ProjectData projectData, String fileName, File upload,String type) {
+		String overReportName = fileName.substring(0, fileName.lastIndexOf("."));
+		String ext = fileName.substring(fileName.lastIndexOf("."));
+		fileName = UUID.randomUUID().toString() + ext;
+		
+		String filePath = "e:/ProjectManagement/file/" + projectData.getProjectDataId()
+					+ "/"+type+"/";
+		File filePathDir = new File(filePath);
+		
+		if(!filePathDir.exists()){
+			filePathDir.mkdirs();
+		}
+		File overReport = new File(filePathDir,fileName);
+		
+		try {
+			FileOutputStream fos = new FileOutputStream(overReport);
+			FileInputStream fis = new FileInputStream(upload);
+			byte[] buffer = new byte[1024];
+			int length;
+		
+				while((length = fis.read(buffer)) > 0){
+					fos.write(buffer,0,length);	
+				}
+				fos.close();
+				fis.close();
+			
+		} catch (FileNotFoundException e) {
+			
+			e.printStackTrace();
+		} catch (IOException e) {
+		
+			e.printStackTrace();
+		}
+		
+		projectData.setOverReportName(overReportName);
+		projectData.setOverReportFileName(fileName);
+		
+	}
+	/*往数据库中增加一个项目资料**/
+	@Override
+	public void add(ProjectData projectData) {
+		projectDataDao.add(projectData);
+		
+	}
+	/*更新项目资料**/
+	@Override
+	public void update(ProjectData projectData) {
+		projectDataDao.Update(projectData);
+		
+	}
+	
+	
+	
+	
+	
+}
